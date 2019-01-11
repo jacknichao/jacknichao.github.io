@@ -110,7 +110,7 @@ button:focus { outline: none; }
 	-ms-flex-pack: center;
 	    justify-content: center;
 	width: auto;
-}
+}s
 
 .cd-slider-nav a { text-transform: capitalize; }
 .navbar-nav .nav-item { float: none; }
@@ -122,7 +122,7 @@ button:focus { outline: none; }
 	color: black;
     display: table-cell;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 1.5em;
 	vertical-align: middle;
     width: 130px;
     height: 40px;
@@ -623,7 +623,7 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 	.cd-hero-slider h2.tm-gallery-title { margin-bottom: 25px; }
 	.cd-hero-slider p:last-child { margin-bottom: 0; }
 	.cd-hero-slider .cd-full-width { padding-top: 0; }
-	.cd-hero-slider .tm-text { font-size: 1em; }
+	.cd-hero-slider .tm-text { font-size: 1.5em; }
 	.tm-img-gallery-container { max-width: 1360px; }
 	.grid-item { width: 25%; }
 }
