@@ -464,7 +464,8 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 @media only screen and (min-width: 480px) {
 	.cd-full-width .container-fluid { margin-top: -80px; }
 	.tm-2-col-container { padding: 50px; }
-	.cd-hero-slider h2.tm-text-title { font-size: 2.5em; }
+	/*改年份的样式*/
+	.cd-hero-slider h2.tm-text-title { font-size: 2.2em; }
 	.tm-textbox-padding { padding: 30px 40px; }
 	.tm-textbox-padding-contact { padding: 30px; }
 	.tm-img-gallery-container { 
@@ -623,7 +624,9 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 	.cd-hero-slider h2.tm-gallery-title { margin-bottom: 25px; }
 	.cd-hero-slider p:last-child { margin-bottom: 0; }
 	.cd-hero-slider .cd-full-width { padding-top: 0; }
-	.cd-hero-slider .tm-text { font-size: 1.5em; }
+	/*改发表文章的文字样式*/
+	.cd-hero-slider .tm-text { font-size: 1.2em; }
+	.cd-hero-slider .tm-text-intro { font-size: 1.5em; }
 	.tm-img-gallery-container { max-width: 1360px; }
 	.grid-item { width: 25%; }
 }
