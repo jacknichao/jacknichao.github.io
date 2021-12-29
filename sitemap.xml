@@ -34,41 +34,121 @@
   
   <url>
     <loc>https://jacknichao.github.io/publication-type/2/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacknichao.github.io/author/ahmed-e.-hassan/</loc>
+    <lastmod>2021-12-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jacknichao.github.io/authors/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jacknichao.github.io/author/chao-ni/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jacknichao.github.io/tag/cross-project-defect-prediction/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jacknichao.github.io/author/david-lo/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jacknichao.github.io/tag/effort-aware/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+    <loc>https://jacknichao.github.io/tag/javascript/</loc>
+    <lastmod>2021-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacknichao.github.io/tag/just-in-time-defect-prediction/</loc>
+    <lastmod>2021-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacknichao.github.io/publication/journal-article/2020-tosem-js/</loc>
+    <lastmod>2021-12-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jacknichao.github.io/publication_types/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jacknichao.github.io/publication/</loc>
+    <lastmod>2021-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacknichao.github.io/tags/</loc>
+    <lastmod>2021-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacknichao.github.io/author/xiaohu-yang/</loc>
+    <lastmod>2021-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacknichao.github.io/author/xin-xia/</loc>
+    <lastmod>2021-12-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacknichao.github.io/publication-type/3/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacknichao.github.io/tag/cross-project-defect-prediction/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacknichao.github.io/tag/empirical-studies/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacknichao.github.io/tag/heterogeneous-defect-prediction/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacknichao.github.io/publication/journal-article/2021-ist-infsof.2020.106441/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacknichao.github.io/tag/software-defect-prediction/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacknichao.github.io/tag/unsupervised-method/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacknichao.github.io/author/xiang-chen/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacknichao.github.io/author/yanzhou-mu/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacknichao.github.io/author/zhanqi-cui/</loc>
+    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacknichao.github.io/tag/effort-aware/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -85,61 +165,6 @@
   <url>
     <loc>https://jacknichao.github.io/tag/supervised-vs-unsupervised/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jacknichao.github.io/tags/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jacknichao.github.io/author/xiang-chen/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jacknichao.github.io/author/xin-xia/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jacknichao.github.io/publication-type/3/</loc>
-    <lastmod>2020-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jacknichao.github.io/tag/empirical-studies/</loc>
-    <lastmod>2020-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jacknichao.github.io/tag/heterogeneous-defect-prediction/</loc>
-    <lastmod>2020-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jacknichao.github.io/publication/preprint/arxiv-2020-1/</loc>
-    <lastmod>2020-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jacknichao.github.io/tag/software-defect-prediction/</loc>
-    <lastmod>2020-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jacknichao.github.io/tag/unsupervised-method/</loc>
-    <lastmod>2020-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jacknichao.github.io/author/yanzhou-mu/</loc>
-    <lastmod>2020-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jacknichao.github.io/author/zhanqi-cui/</loc>
-    <lastmod>2020-05-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -243,17 +268,17 @@
   </url>
   
   <url>
-    <loc>https://jacknichao.github.io/publication-type/9/</loc>
+    <loc>https://jacknichao.github.io/publication-type/0/</loc>
+    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacknichao.github.io/tag/cross-project-defect-prediction-feature-transfer-instance-transfer/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jacknichao.github.io/publication/chinese/jos/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jacknichao.github.io/tag/source-themes/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url>
   

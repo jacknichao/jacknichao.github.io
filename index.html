@@ -632,7 +632,7 @@ I have employed and customized structured and unstructured data analytics techni
           
           <li>Mining Software Repositories</li>
           
-          <li>Empirical Software Engineerin</li>
+          <li>Empirical Software Engineering</li>
           
           <li>BlockChain</li>
           
@@ -755,7 +755,7 @@ I have employed and customized structured and unstructured data analytics techni
     
 
   
-  <span ><a href="/author/chao-ni/">Chao Ni</a></span>, <span >Xin Xia</span>, <span >David Lo</span>, <span >Xiang Chen</span>, <span >Qing Gu</span>
+  <span ><a href="/author/chao-ni/">Chao Ni</a></span>, <span >Xin Xia</span>, <span >David Lo</span>, <span >Xiaohu Yang</span>, <span >Ahmed E. Hassan</span>
   </div>
   
   
@@ -766,7 +766,7 @@ I have employed and customized structured and unstructured data analytics techni
     
       
     
-    June 2020
+    December 2021
   </span>
   
 
@@ -774,7 +774,7 @@ I have employed and customized structured and unstructured data analytics techni
   <span class="middot-divider"></span>
   <span class="pub-publication">
     
-      In <em>TSE</em>
+      In <em>TOSEM</em>
     
   </span>
   
@@ -795,20 +795,15 @@ I have employed and customized structured and unstructured data analytics techni
   
   
   
-  
-  <a href="/publication/journal-article/2020-tse-easc/">
-      <img src="/publication/journal-article/2020-tse-easc/featured_hu7a8f69e960a0031253909696ba6631b1_49841_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="Revisiting Supervised and Unsupervised Methods for Effort-Aware Cross-Project Defect Prediction">
-  </a>
-  
 
   <h3 class="article-title mb-1 mt-3">
-    <a href="/publication/journal-article/2020-tse-easc/">Revisiting Supervised and Unsupervised Methods for Effort-Aware Cross-Project Defect Prediction</a>
+    <a href="/publication/journal-article/2020-tosem-js/">Just-In-Time Defect Prediction on JavaScript Projects: A Replication Study</a>
   </h3>
 
   
-  <a href="/publication/journal-article/2020-tse-easc/" class="summary-link">
+  <a href="/publication/journal-article/2020-tosem-js/" class="summary-link">
     <div class="article-style">
-      <p>Cross-project defect prediction (CPDP), aiming to apply defect prediction models built on source projects to a target project, has been an active research topic. A variety of supervised CPDP methods and some simple unsupervised CPDP methods have been proposed. In a recent study, Zhou et al. found that simple unsupervised CPDP methods (i.e., ManualDown and ManualUp) have a prediction performance comparable or even superior to complex supervised CPDP methods. Therefore, they suggested that the ManualDown should be treated as the baseline when considering non-effort-aware performance measures (NPMs) and the ManualUp should be treated as the baseline when considering effort-aware performance measures (EPMs) in future CPDP studies. However, in that work, these unsupervised methods are only compared with existing supervised CPDP methods using a small subset of NPMs, and the prediction results of baselines are directly collected from the primary literatures. Besides, the comparison has not considered other recently proposed EPMs, which consider context switches and developer fatigue due to initial false alarms. These limitations may not give a holistic comparison between the supervised methods and unsupervised methods. In this paper, we aim to revisit Zhou et al.’s study. To the best of our knowledge, we are the first to make a comparison between the existing supervised CPDP methods and the unsupervised methods proposed by Zhou et al. in the same experimental setting when considering both NPMs and EPMs. We also propose an improved supervised CPDP method EASC and make a further comparison with the unsupervised methods. According to the results on 82 projects in terms of 11 performance measures, we find that when considering NPMs, EASC can achieve prediction performance comparable or even superior to unsupervised method ManualDown in most cases. Besides, when considering EPMs, EASC can statistically significantly outperform the unsupervised method ManualUp with a large improvement in terms of Cliff’s delta in most cases. Therefore, the supervised CPDP methods are more promising than the unsupervised method in practical application scenarios, since the limitation of testing resource and the impact on developers cannot be ignored in these scenarios.</p>
+      <p>Change-level metrics features play an important role in Just-in-time defect prediction. Prior proposed change-level features are programming language-independent, whether programming language-specific change-level features can further improve the performance of JIT approaches on identifying defect-prone changes is unknown. In this paper, we propose five JavaScript-specific change-level features and conduct large-scale experiments to show the usefulness of language-specific features in identifying defects.</p>
     </div>
   </a>
   
@@ -830,19 +825,26 @@ I have employed and customized structured and unstructured data analytics techni
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/pdf/ni2020easc.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/pdf/tosem-2020-0133.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/journal-article/2020-tse-easc/cite.bib">
+        data-filename="/publication/journal-article/2020-tosem-js/cite.bib">
   Cite
 </button>
 
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/jacknichao/JIT-on-JavaScript-projects" target="_blank" rel="noopener">
+  Dataset
+</a>
 
 
 
@@ -853,7 +855,8 @@ I have employed and customized structured and unstructured data analytics techni
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/TSE.2020.3001739" target="_blank" rel="noopener">
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/3508479" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -989,13 +992,226 @@ I have employed and customized structured and unstructured data analytics techni
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/journal-article/2020-tosem-js/" >Just-In-Time Defect Prediction on JavaScript Projects: A Replication Study</a>
+    </h3>
+
+    
+    <a href="/publication/journal-article/2020-tosem-js/" class="summary-link">
+      <div class="article-style">
+        Change-level metrics features play an important role in Just-in-time defect prediction. Prior proposed change-level features are programming language-independent, whether programming language-specific change-level features can further improve the performance of JIT approaches on identifying defect-prone changes is unknown. In this paper, we propose five JavaScript-specific change-level features and conduct large-scale experiments to show the usefulness of language-specific features in identifying defects.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span ><a href="/author/chao-ni/">Chao Ni</a></span>, <span >Xin Xia</span>, <span >David Lo</span>, <span >Xiaohu Yang</span>, <span >Ahmed E. Hassan</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/pdf/tosem-2020-0133.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/journal-article/2020-tosem-js/cite.bib">
+  Cite
+</button>
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/jacknichao/JIT-on-JavaScript-projects" target="_blank" rel="noopener">
+  Dataset
+</a>
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1145/3508479" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/journal-article/2021-ist-infsof.2020.106441/" >Revisiting Heterogeneous Defect Prediction: How Far Are We?</a>
+    </h3>
+
+    
+    <a href="/publication/journal-article/2021-ist-infsof.2020.106441/" class="summary-link">
+      <div class="article-style">
+        Cross-project defect prediction (CPDP) is applicable to the scenarios when the target projects are new projects or these projects only …
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span >Xiang Chen</span>, <span >Yanzhou Mu</span>, <span ><a href="/author/chao-ni/">Chao Ni</a></span>, <span >Zhanqi Cui</span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/pdf/ist/chen2020.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
       <a href="/publication/journal-article/2020-tse-easc/" >Revisiting Supervised and Unsupervised Methods for Effort-Aware Cross-Project Defect Prediction</a>
     </h3>
 
     
     <a href="/publication/journal-article/2020-tse-easc/" class="summary-link">
       <div class="article-style">
-        Cross-project defect prediction (CPDP), aiming to apply defect prediction models built on source projects to a target project, has been …
+        Cross-project defect prediction (CPDP) has been an active research topic and a variety of supervised CPDP methods and some simple unsupervised CPDP methods have been proposed. Prior work conducted a comparison between supervised approaches and unsupervised approaches and obtain that simple unsupervised CPDP methods (i.e., ManualDown and ManualUp) have a prediction performance comparable or even superior to complex supervised CPDP methods. In this paper, we revisit this work by making a comprehensive comparison between supervised approaches and unsupervised ones. We also propose a supervised approach named EASC and find that supervised methods perform better unsupervised ones considering both EPMs and NPMs.
       </div>
     </a>
     
@@ -1071,104 +1287,6 @@ I have employed and customized structured and unstructured data analytics techni
     <a href="/publication/journal-article/2020-tse-easc/" >
       <img src="/publication/journal-article/2020-tse-easc/featured_hu7a8f69e960a0031253909696ba6631b1_49841_150x0_resize_lanczos_2.png" alt="Revisiting Supervised and Unsupervised Methods for Effort-Aware Cross-Project Defect Prediction">
     </a>
-    
-  </div>
-</div>
-
-      
-    
-      
-        
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/preprint/arxiv-2020-1/" >Revisiting Heterogeneous Defect Prediction: How Far Are We?</a>
-    </h3>
-
-    
-    <a href="/publication/preprint/arxiv-2020-1/" class="summary-link">
-      <div class="article-style">
-        Cross-project defect prediction (CPDP) is applicable to the scenarios when the target projects are new projects or these projects only …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  
-  <span >Xiang Chen</span>, <span >Yanzhou Mu</span>, <span ><a href="/author/chao-ni/">Chao Ni</a></span>, <span >Zhanqi Cui</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/1908.06560.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
     
   </div>
 </div>
@@ -1399,118 +1517,6 @@ I have employed and customized structured and unstructured data analytics techni
 
       
     
-      
-        
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0">
-      <a href="/publication/journal-article/2019-jsep-mask/" >Multi-task Defect Prediction</a>
-    </h3>
-
-    
-    <a href="/publication/journal-article/2019-jsep-mask/" class="summary-link">
-      <div class="article-style">
-        Within-project defect prediction assumes that we have sufficient labeled data from the same project, while cross-project defect …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  
-  <span ><a href="/author/chao-ni/">Chao Ni</a></span>, <span >Xiang Chen</span>, <span >Xin Xia</span>, <span >Qing Gu</span>, <span >Yingquan Zhao</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/pdf/ni2019mask.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/journal-article/2019-jsep-mask/cite.bib">
-  Cite
-</button>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1002/smr.2203" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/publication/journal-article/2019-jsep-mask/" >
-      <img src="/publication/journal-article/2019-jsep-mask/featured_hu251f802dc1b02496f2d45936e53af053_25722_150x0_resize_lanczos_2.png" alt="Multi-task Defect Prediction">
-    </a>
-    
-  </div>
-</div>
-
-      
-    
 
     
     <div class="see-all">
@@ -1609,6 +1615,11 @@ I have employed and customized structured and unstructured data analytics techni
           
           
           
+          <a href="/tag/cross-project-defect-prediction-feature-transfer-instance-transfer/" style="font-size:0.3rem">Cross Project Defect Prediction, Feature Transfer, Instance Transfer</a>
+        
+          
+          
+          
           <a href="/tag/deep-learning/" style="font-size:0.3rem">Deep Learning</a>
         
           
@@ -1654,6 +1665,16 @@ I have employed and customized structured and unstructured data analytics techni
           
           
           
+          <a href="/tag/javascript/" style="font-size:0.3rem">JavaScript</a>
+        
+          
+          
+          
+          <a href="/tag/just-in-time-defect-prediction/" style="font-size:0.3rem">Just-in-Time Defect Prediction</a>
+        
+          
+          
+          
           <a href="/tag/multi-objective-optimization/" style="font-size:0.3rem">Multi-Objective optimization</a>
         
           
@@ -1679,22 +1700,7 @@ I have employed and customized structured and unstructured data analytics techni
           
           
           
-          <a href="/tag/source-themes/" style="font-size:0.3rem">Source Themes</a>
-        
-          
-          
-          
           <a href="/tag/supervised-vs-unsupervised/" style="font-size:0.5707969650641791rem">Supervised vs Unsupervised</a>
-        
-          
-          
-          
-          <a href="/tag/unsupervised-method/" style="font-size:0.3rem">Unsupervised method</a>
-        
-          
-          
-          
-          <a href="/tag/%E5%BC%80%E6%BA%90/" style="font-size:0.3rem">开源</a>
         
       </div>
     
