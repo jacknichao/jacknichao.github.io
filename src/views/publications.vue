@@ -1,0 +1,308 @@
+<template lang="">
+
+
+
+<h2 >Publication Summary</h2>
+<ul>
+	<li>
+		<b>Journal Papers</b>: &emsp;IEEE Transactions on Software Engineering(TSE) * 1, &emsp; ACM Transactions on Software Engineering and Methodology(TOSEM) * 1,  &emsp;Journal of Systems and Software(JSS) *1.&emsp; Information and Software Technology(IST) * 2, &emsp; Journal of Software: Evolution and Process(JSEP) * 2; &emsp; Journal of Computer Science and Technology(JCST) * 1.
+	</li>
+	<li>
+	<b>Conference Papers</b>: &emsp;FSE * 1,&emsp; COMPSAC * 1,&emsp; SEKE * 1.
+	</li>
+	<li>
+		<b>Papers in Chinese</b>: &emsp;软件学报 * 3, &emsp;计算机科学 * 1,&emsp; 计算机工程与应用 * 1.
+	</li>
+</ul>
+
+
+
+
+
+
+
+	<h2 id="publications">Publications</h2>
+        <!-- &#35; Co-First Author,&emsp;* Corresponding Author;&emsp;C: Conference Paper,&emsp;J: Journal Paper. -->
+	<template v-for="pub in publications">
+		<h2>
+			<b>{{pub.year}}</b>
+		</h2>
+		<p style="text-align:justify" v-for="item in pub.items">
+		<span v-if="item.id.length > 0">[{{item.id}}]</span>&nbsp;
+		<strong>{{item.short}}.</strong>&emsp;
+			<a v-if="item.doi.length>0" :href="item.doi">{{item.title}}</a>
+			<span v-else>{{item.title}}</span>&emsp;
+			<i v-if="item.CCF_grade.length > 0">{{ item.CCF_grade }}</i>
+			<!-- //这里写你想添加的badge,pub.CCF_grade是字符串,具体的等级 -->
+			&nbsp;&nbsp;
+			<i v-if="item.award_winning">获奖了</i>
+			<!-- //这里写你想添加的badge,award_winning是布尔型,所以只决定badge的有无即可 -->
+			<br>
+			<span v-for="(auth,index) in item.authors">
+			
+			<template v-if="auth == 'Ni Chao' || auth == 'Chao Ni' || auth == '倪超'">
+				<b>
+					<u>
+					{{auth}}
+					</u>
+				</b>
+			</template>
+			<template v-else>
+				{{auth}}
+			</template>
+			<template v-if="item.corresponding_authors.indexOf(auth) != -1">*</template>
+			<template v-if="index != item.authors.length-1">, </template>
+			<template v-else>.</template>
+			</span>
+			<small>
+					Accepted in <i>{{item.long}}</i>, {{pub.year}}.
+					&nbsp;<a :href="item.pdf" :download="`item.title`.pdf">[pdf]</a>
+					&nbsp;<a v-if="item.doi.length>0" :href="item.doi">[doi]</a>
+			</small>
+		</p>
+	</template>
+</template>
+<script>
+import confs from '../global/index'
+export default {
+	data() {
+		return {
+			publications: [
+				{
+					year: "2022",
+					items: [
+						{
+							id: "C3",
+							short: "FSE",
+							long: confs["FSE"],
+							title: "The Best of BothWorlds: Integrating Semantic Features with Expert Features for Defect Prediction and Localization",
+							authors: ["Chao Ni", "Wei Wang", "Kaiwen Yang", "Xin Xia", "Kui Liu",  "David Lo"],
+ 							corresponding_authors: ["Xin Xia"],
+							pdf: "",
+							doi: "",
+							CCF_grade: "(CCF-A)",
+							award_winning: false
+						},
+					]
+				},
+				{
+					year: "2021",
+					items: [
+						{
+							id: "J8",
+							short: "TOSEM",
+							long: confs["TOSEM"],
+							title: "Just-In-Time Defect Prediction on JavaScript Projects: A Replication Study",
+							authors: ["Chao Ni", "Xin Xia", "David Lo", "Xiaohu Yang", "Ahmed E. Hassan"],
+ 							corresponding_authors: ["Xin Xia"],
+							pdf: "./pdf/tosem-2020-0133.pdf",
+							doi: "https://doi.org/10.1145/3508479",
+							CCF_grade: "(CCF-A)",
+							award_winning: false
+						},
+						{
+							id: "J7",
+							short: "IST",
+							long: confs["IST"],
+							title: "Revisiting Heterogeneous Defect Prediction: How Far Are We?",
+							authors: ["Xiang Chen", "Yanzhou Mu", "KeLiu", "Zhanqi Cui", "ChaoNi"],
+							corresponding_authors: ["Xiang Chen"],
+							pdf: "./pdf/chen2020.pdf",
+							doi: "https://doi.org/10.1016/j.infsof.2020.106441",
+							CCF_grade: "(CCF-B)",
+							award_winning: false
+						},
+					]
+				},
+				{
+					year: "2020",
+					items: [
+						{
+							id: "J6",
+							short: "TSE",
+							long: confs["TSE"],
+							title: "Revisiting Supervised and Unsupervised Methods for Effort-Aware Cross-Project Defect Prediction",
+							authors: ["Chao Ni", "Xin Xia", "David Lo", "Xiang Chen", "Qing Gu"],
+							corresponding_authors: ["Qing Gu"],
+							pdf: "./pdf/ni2020easc.pdf",
+							doi: "https://doi.org/10.1109/TSE.2020.3001739",
+							CCF_grade: "(CCF-A)",
+							award_winning: false
+						},
+					]
+				},
+				{
+					year: "2019",
+					items: [
+						{
+							id: "J5",
+							short: "JSEP",
+							long: confs["JSEP"],
+							title: "Do different cross-project defect prediction methods identify the same defective modules?",
+							authors: ["Xiang Chen", "Yanzhou Mu", "Yubin Qu", "Chao Ni", "Meng Liu", "Tong He", "Shangqing Liu"],
+							corresponding_authors: ["Xiang Chen"],
+							pdf: "./pdf/chen2019smr.2234.pdf",
+							doi: "https://doi.org/10.1002/smr.2234",
+							CCF_grade: "(CCF-B)",
+							award_winning: false
+						},
+						{
+							id: "C2",
+							short: "SEKE",
+							long: confs["SEKE"],
+							title: "Multi-project Regression based Approach for Software Defect Number Prediction",
+							authors: ["Qiguo Huang", "Chao Ni", "Xiang Chen", "Qing Gu", "Kaibo Cao"],
+							corresponding_authors: ["Chao Ni", "Qing Gu"],
+							pdf: "./pdf/huang2019sdnp.pdf",
+							doi: "https://doi.org/10.18293/SEKE2019-019",
+							CCF_grade: "(CCF-C)",
+							award_winning: false
+						},
+						{
+							id: "J4",
+							short: "JSEP",
+							long: confs["JSEP"],
+							title: "Multi-task Defect Prediction",
+							authors: ["Chao Ni", "Xiang Chen", "Xin Xia", "Qing Gu", "Yingquan Zhao"],
+							corresponding_authors: ["Qing Gu"],
+							pdf: "./pdf/ni2019mask.pdf",
+							doi: "https://doi.org/10.1002/smr.2203",
+							CCF_grade: "(CCF-B)",
+							award_winning: false
+						},
+						{
+							id: "J3",
+							short: "JSS",
+							long: confs["JSS"],
+							title: "An empirical study on pareto based multi-objective feature selection for software defect prediction",
+							authors: ["Chao Ni", "Xiang Chen", "Fangfang Wu", "Yuxiang Shen", "Qing Gu"],
+							corresponding_authors: ["Qing Gu"],
+							pdf: "./pdf/ni2019mofes.pdf",
+							doi: "https://doi.org/10.1016/j.jss.2019.03.012",
+							CCF_grade: "(CCF-B)",
+							award_winning: false
+						},						
+					]
+				},
+				{
+					year: "2018",
+					items: [
+						{
+							id: "J2",
+							short: "IST",
+							long: confs["IST"],
+							title: "Software Defect Number Prediction: Unsupervised v.s. Supervised Methods",
+							authors: ["Xiang Chen", "Dun Zhang", "Yingquan Zhao", "Zhanqi Cui", "Chao Ni"],
+							corresponding_authors: ["Xiang Chen"],
+							pdf: "./pdf/chen2018sdnp.pdf",
+							doi: "https://doi.org/10.1016/j.infsof.2018.10.003",
+							CCF_grade: "(CCF-B)",
+							award_winning: false
+						},
+					]
+				},
+				{
+					year: "2017",
+					items: [
+						{
+							id: "J1",
+							short: "JCST",
+							long: confs["JCST"],
+							title: "A Cluster Based Feature Selection Method for Cross-Project Software Defect Prediction",
+							authors: ["Chao Ni", "Wangshu Liu", "Xiang Chen", "Qing Gu", "Daoxu Chen", "Qiguo Huang"],
+							corresponding_authors: ["Qing Gu"],
+							pdf: "./pdf/ni2017cluster.pdf",
+							doi: "https://doi.org/10.1007/s11390-017-1785-0",
+							CCF_grade: "(CCF-B)",
+							award_winning: false
+						},						 
+						{
+							id: "C1",
+							short: "COMPSAC",
+							long: confs["COMPSAC"],
+							title: "FeSCH: A Feature Selection Method using Clusters of Hybrid-data for Cross-Project Defect Prediction",
+							authors: ["Chao Ni", "Wangshu Liu", "Qing Gu", "Xiang Chen", "Daoxu Chen"],
+							corresponding_authors: ["Qing Gu"],
+							pdf: "./pdf/ni2017fesch.pdf",
+							doi: "https://doi.org/10.1109/COMPSAC.2017.127",
+							CCF_grade: "(CCF-C)",
+							award_winning: false
+						},
+					]
+				},
+				{
+					year: "中文论文",
+					items: [					
+						
+						{
+							id: "CJ5",
+							short: "软件学报-2020",
+							long: "软件学报",
+							title: "一种基于卷积神经网络的砂岩显微图像特征表示方法",
+							authors: ["李娜", "顾庆","姜枫", "郝慧珍", "于华", "倪超"],
+							corresponding_authors: ["顾庆"],
+							pdf: "./pdf/一种基于卷积神经网络的砂岩显微图像特征表示方法.pdf",
+							doi: "https://doi.org/10.13328/j.cnki.jos.005836",
+							CCF_grade: "(CCF-A)",
+							award_winning: false
+						},
+						{
+							id: "CJ4",
+							short: "软件学报-2019",
+							long: "软件学报",
+							title: "基于特征迁移和实例迁移的跨项目缺陷预测方法",
+							authors: ["倪超", "陈翔", "刘望舒", "顾庆", "黄启国", "李娜"],
+							corresponding_authors: ["顾庆"],
+							pdf: "./pdf/基于特征迁移和实例迁移的跨项目缺陷预测方法.pdf",
+							doi: "https://doi.org/10.13328/j.cnki.jos.005712",
+							CCF_grade: "(CCF-A)",
+							award_winning: false
+						},
+						{
+							id: "CJ3",
+							short: "计算机工程与应用-2019",
+							long: "计算机工程与应用",
+							title: "FSDNP：针对软件缺陷数预测的特征选择方法",
+							authors: ["李叶飞", "官国飞", "葛崇慧", "陈翔", "倪超", "钱柱中"],
+							corresponding_authors: ["倪超"],
+							pdf: "./pdf/FSDNP：针对软件缺陷数预测的特征选择方法.pdf",
+							doi: "https://doi.org/10.3778/j.issn.1002-8331.1811-0103",
+							CCF_grade: "(CCF-C， 中文核心)",
+							award_winning: false
+						},
+						{
+							id: "CJ2",
+							short: "计算机学报-2018",
+							long: "计算机学报",
+							title: "跨项目软件缺陷预测方法研究综述",
+							authors: ["陈翔","王莉萍", "顾庆","王赞", "倪超", "刘望舒", "王秋萍"],
+							corresponding_authors: ["陈翔"],
+							pdf: "./pdf/跨项目软件缺陷预测方法研究综述.pdf",
+							doi: "https://doi.org/10.11897/SP.J.1016.2018.00254",
+							CCF_grade: "(CCF-A)",
+							award_winning: false
+						},
+						
+						{
+							id: "CJ1",
+							short: "软件学报-2016",
+							long: "软件学报",
+							title: "静态软件缺陷预测方法研究",
+							authors: ["陈翔", "顾庆", "刘望舒", "刘树龙", "倪超"],
+							corresponding_authors: ["陈翔"],
+							pdf: "./pdf/静态软件缺陷预测方法研究.pdf",
+							doi: "https://doi.org/10.13328/j.cnki.jos.004923",
+							CCF_grade: "(CCF-A)",
+							award_winning: false
+						},				
+					]
+				},
+
+			]
+		}
+	}
+}
+</script>
+<style lang="">
+	
+</style>
