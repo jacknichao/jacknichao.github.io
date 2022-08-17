@@ -8,7 +8,7 @@
 		<b>Journal Papers</b>: &emsp;IEEE Transactions on Software Engineering(TSE) * 1, &emsp; ACM Transactions on Software Engineering and Methodology(TOSEM) * 1,  &emsp;Journal of Systems and Software(JSS) *1.&emsp; Information and Software Technology(IST) * 2, &emsp; Journal of Software: Evolution and Process(JSEP) * 2; &emsp; Journal of Computer Science and Technology(JCST) * 1.
 	</li>
 	<li>
-	<b>Conference Papers</b>: &emsp;FSE * 1,&emsp; COMPSAC * 1,&emsp; SEKE * 1.
+	<b>Conference Papers</b>: &emsp;FSE * 1,&emsp; COMPSAC * 1,&emsp;ISSRE * 1,&emsp; SEKE * 1.
 	</li>
 	<li>
 		<b>Papers in Chinese</b>: &emsp;软件学报 * 3, &emsp;计算机科学 * 1,&emsp; 计算机工程与应用 * 1.
@@ -31,7 +31,7 @@
 		<span v-if="item.id.length > 0">[{{item.id}}]</span>&nbsp;
 		<strong>{{item.short}}.</strong>&emsp;
 			<a v-if="item.doi.length>0" :href="item.doi">{{item.title}}</a>
-			<span v-else>{{item.title}}</span>&emsp;
+			<span v-else>{{item.title}}</span>.&emsp;
 			<i v-if="item.CCF_grade.length > 0">{{ item.CCF_grade }}</i>
 			<!-- //这里写你想添加的badge,pub.CCF_grade是字符串,具体的等级 -->
 			&nbsp;&nbsp;
@@ -72,6 +72,18 @@ export default {
 					year: "2022",
 					items: [
 						{
+							id: "C4",
+							short: "ISSRE",
+							long: confs["ISSRE"],
+							title: "Detecting and Defending CSRF at API-Level",
+							authors: ["Shun Wang", "Chao Ni", "Jianbo Wang",  "Changhai Nie"],
+ 							corresponding_authors: ["Chao Ni"],
+							pdf: "",
+							doi: "",
+							CCF_grade: "(CCF-B) - Industry Track",
+							award_winning: false
+						},
+						{
 							id: "C3",
 							short: "FSE",
 							long: confs["FSE"],
@@ -105,7 +117,7 @@ export default {
 							short: "IST",
 							long: confs["IST"],
 							title: "Revisiting Heterogeneous Defect Prediction: How Far Are We?",
-							authors: ["Xiang Chen", "Yanzhou Mu", "KeLiu", "Zhanqi Cui", "ChaoNi"],
+							authors: ["Xiang Chen", "Yanzhou Mu", "Ke Liu", "Zhanqi Cui", "Chao Ni"],
 							corresponding_authors: ["Xiang Chen"],
 							pdf: "./pdf/chen2020.pdf",
 							doi: "https://doi.org/10.1016/j.infsof.2020.106441",
