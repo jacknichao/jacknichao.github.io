@@ -15,7 +15,7 @@ export default {
 				{
 					name: "JIT-Fine",
 					description: "The Best of BothWorlds: Integrating Semantic Features with Expert Features for Defect Prediction and Localization",
-					url: "https://zenodo.org/record/6347097#.YpGcIOxBz9A"
+					url: "https://github.com/jacknichao/JIT-Fine"
 				},
 				{
 					name: "CompDefect",

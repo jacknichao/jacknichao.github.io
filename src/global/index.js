@@ -11,6 +11,7 @@ const confs = {
 	TechDebt:"International Conference on Technical Debt",
 	APSEC:"Asia-Pacific Software Engineering Conference",
 	ISSRE:"IEEE International Symposium on Software Reliability Engineering",
-	SANER:"IEEE International Conference on Software Analysis, Evolution and Reengineering"
+	SANER:"IEEE International Conference on Software Analysis, Evolution and Reengineering",
+	IET:"IET Software"
 }
 export default confs

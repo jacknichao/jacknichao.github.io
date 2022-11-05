@@ -34,6 +34,18 @@ export default {
 					year:"2022"
 				},
 				{
+					title:"Journal referee",
+					organization:"Journal of Software: Evolution and Process",
+					abbr:"JSEP",
+					year:"2022"
+				},
+				{
+					title:"Journal referee",
+					organization:" IET Software",
+					abbr:"IET",
+					year:"2022"
+				},
+				{
 					title:"Program Committee",
 					organization:"International Conference on Technical Debt",
 					abbr:"TechDebt",
