@@ -12,6 +12,7 @@ const confs = {
 	APSEC:"Asia-Pacific Software Engineering Conference",
 	ISSRE:"IEEE International Symposium on Software Reliability Engineering",
 	SANER:"IEEE International Conference on Software Analysis, Evolution and Reengineering",
-	IET:"IET Software"
+	IET:"IET Software",
+	EMSE:"Empirical Software Engineering"
 }
 export default confs
