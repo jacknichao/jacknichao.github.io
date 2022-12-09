@@ -11,7 +11,7 @@
 	<b>Conference Papers</b>: &emsp;FSE * 1,&emsp; COMPSAC * 1,&emsp;ISSRE * 1,&emsp; SEKE * 1.
 	</li>
 	<li>
-		<b>Papers in Chinese</b>: &emsp;软件学报 * 3, &emsp;计算机科学 * 1,&emsp; 计算机工程与应用 * 1.
+		<b>Papers in Chinese</b>: &emsp;软件学报 * 3, &emsp;计算机科学 * 1,&emsp; 计算机工程与应用 * 1,&emsp; 高等工程教育研究 * 1.
 	</li>
 </ul>
 
@@ -244,7 +244,19 @@ export default {
 				},
 				{
 					year: "中文论文",
-					items: [					
+					items: [		
+						{
+							id: "CJ6",
+							short: "高等工程教育研究-2022",
+							long: "高等工程教育研究",
+							title: "开源模式下我国软件人才培养的挑战和对策",
+							authors: ["陈丽", "赵斌","倪超", "杨小虎"],
+							corresponding_authors: ["陈丽"],
+							pdf: "./pdf/开源模式下我国软件人才培养的挑战和对策.pdf",
+							doi: "https://doi.org/10.13328/j.cnki.jos.005836",
+							CCF_grade: "(教育)",
+							award_winning: false
+						},			
 						
 						{
 							id: "CJ5",

@@ -27,6 +27,13 @@ export default {
 					abbr:"ICSE",
 					year:"2023"
 				},
+
+				{
+					title:"Journal referee",
+					organization:"Blockchain: Research and Applications",
+					abbr:"BCRA",
+					year:"2022"
+				},
 				{
 					title:"Journal referee",
 					organization:"Empirical Software Engineering",
