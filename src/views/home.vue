@@ -107,6 +107,10 @@ export default {
 			],
 			news: [//首页新闻相关的内容放这里
 				{
+					text:"2022/12: Our one paper was accepted by TOSEM'22!",
+					award_winning: false //表示是否获奖，获奖的话，可以添加徽章
+				},
+				{
 					text:"2022/06: Our one paper was accepted by FSE'22!",
 					award_winning: false //表示是否获奖，获奖的话，可以添加徽章
 				},
@@ -130,6 +134,16 @@ export default {
 				// "CCF 等级"
 				// "是否获奖"
 				// ),
+				genPublicationObj(
+					"TOSEM'22",
+					confs.TOSEM,
+					"Code-line-level bugginess identification: How far have we come, and how far have we yet to go?",
+					["Zhaoqiang Guo", "Shiran Liu", "Xutong Liu",  "Wei Lai", "Mingliang Ma", "Xu Zhang", "Chao Ni", "Yibiao Yang",  "Yanhui Li", "Lin Chen", "Guoqiang Zhou", "Yuming Zhou"],
+					["Yuming Zhou"],
+					"Dec 2022",
+					"[CCF-A]", 
+					false, 
+				),
 				genPublicationObj(
 					"FSE'22",
 					confs.FSE,

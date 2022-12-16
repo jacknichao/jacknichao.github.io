@@ -5,10 +5,10 @@
 <h2 >Publication Summary</h2>
 <ul>
 	<li>
-		<b>Journal Papers</b>: &emsp;IEEE Transactions on Software Engineering(TSE) * 1, &emsp; ACM Transactions on Software Engineering and Methodology(TOSEM) * 1,  &emsp;Journal of Systems and Software(JSS) *1.&emsp; Information and Software Technology(IST) * 2, &emsp; Journal of Software: Evolution and Process(JSEP) * 2; &emsp; Journal of Computer Science and Technology(JCST) * 1.
+		<b>Journal Papers</b>: &emsp;IEEE Transactions on Software Engineering(TSE) * 1, &emsp; ACM Transactions on Software Engineering and Methodology(TOSEM) * 2,  &emsp;Journal of Systems and Software(JSS) *1.&emsp; Information and Software Technology(IST) * 2, &emsp; Journal of Software: Evolution and Process(JSEP) * 2; &emsp; Journal of Computer Science and Technology(JCST) * 1.
 	</li>
 	<li>
-	<b>Conference Papers</b>: &emsp;FSE * 1,&emsp; COMPSAC * 1,&emsp;ISSRE * 1,&emsp; SEKE * 1.
+	<b>Conference Papers</b>: &emsp;FSE * 1,&emsp;SANER * 1,&emsp;ISSRE * 1,&emsp;COMPSAC * 1,&emsp; SEKE * 1.
 	</li>
 	<li>
 		<b>Papers in Chinese</b>: &emsp;软件学报 * 3, &emsp;计算机科学 * 1,&emsp; 计算机工程与应用 * 1,&emsp; 高等工程教育研究 * 1.
@@ -71,6 +71,31 @@ export default {
 				{
 					year: "2022",
 					items: [
+					{
+							id: "J9",
+							short: "TOSEM",
+							long: confs["TOSEM"],
+							title: "Code-line-level bugginess identification: How far have we come, and how far have we yet to go?",
+							authors: ["Zhaoqiang Guo", "Shiran Liu", "Xutong Liu",  "Wei Lai", "Mingliang Ma", "Xu Zhang", "Chao Ni", "Yibiao Yang",  "Yanhui Li", "Lin Chen", "Guoqiang Zhou", "Yuming Zhou"],
+ 							corresponding_authors: ["Yuming Zhou"],
+							pdf: "",
+							doi: "",
+							CCF_grade: "(CCF-A)",
+							award_winning: false
+						},
+						{
+							id: "C5",
+							short: "SANER",
+							long: confs["SANER"],
+							title: "Automatic Identification of Crash-inducing Smart Contracts",
+							authors: ["Chao Ni", "Cong Tian", "Kaiwen Yang", "David Lo", "Jiachi Chen",  "Xiaohu Yang"],
+ 							corresponding_authors: ["Chao Ni"],
+							pdf: "",
+							doi: "",
+							CCF_grade: "(CCF-B)",
+							award_winning: false
+						},
+					
 						{
 							id: "C4",
 							short: "ISSRE",
