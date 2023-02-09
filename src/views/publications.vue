@@ -103,8 +103,8 @@ export default {
 							title: "Detecting and Defending CSRF at API-Level",
 							authors: ["Shun Wang", "Chao Ni", "Jianbo Wang",  "Changhai Nie"],
  							corresponding_authors: ["Chao Ni"],
-							pdf: "",
-							doi: "",
+							pdf: "./pdf/issre22-p3938.pdf",
+							doi: "https://doi.org/10.1109/ISSREW55968.2022.00043",
 							CCF_grade: "(CCF-B) - Industry Track",
 							award_winning: false
 						},

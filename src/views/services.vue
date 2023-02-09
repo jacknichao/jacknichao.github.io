@@ -17,6 +17,18 @@ export default {
 			services:[
 				{
 					title:"Program Committee",
+					organization:"The 31th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering - Student Research Competition.",
+					abbr:"FSE",
+					year:"2023"
+				},
+				{
+					title:"Journal referee",
+					organization:"Information and Software Technology",
+					abbr:"IST",
+					year:"2023"
+				},
+				{
+					title:"Program Committee",
 					organization:"The 30th IEEE International Conference on Software Analysis, Evolution and Reengineering.",
 					abbr:"SANER",
 					year:"2023"
