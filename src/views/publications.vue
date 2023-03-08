@@ -72,6 +72,18 @@ export default {
 					year: "2023",
 					items: [
 						{
+							id: "C7",
+							short: "MSR",
+							long: confs["MSR"],
+							title: "Boosting Just-in-Time Defect Prediction with Specific Features of C/C++ Programming Languages in Code Changes",
+							authors: ["Chao Ni", "Xiaodan Xu", "Kaiwen Yang", "David Lo"],
+ 							corresponding_authors: ["Chao Ni"],
+							pdf: "",
+							doi: "",
+							CCF_grade: "(CCF-C)",
+							award_winning: false
+						},
+						{
 							id: "C6",
 							short: "ICPC",
 							long: confs["ICPC"],

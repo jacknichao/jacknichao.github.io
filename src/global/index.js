@@ -14,6 +14,7 @@ const confs = {
 	SANER:"IEEE International Conference on Software Analysis, Evolution and Reengineering",
 	IET:"IET Software",
 	EMSE:"Empirical Software Engineering",
-	ICPC:"International Conference on Program Comprehension"
+	ICPC:"International Conference on Program Comprehension",
+	MSR:"International Conference on Mining Software Repositories"
 }
 export default confs
