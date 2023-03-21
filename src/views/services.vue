@@ -17,6 +17,12 @@ export default {
 			services:[
 				{
 					title:"Program Committee",
+					organization:"The 30th Asia-Pacific Software Engineering Conference.",
+					abbr:"APSEC",
+					year:"2023"
+				},
+				{
+					title:"Program Committee",
 					organization:"The 31th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering - Student Research Competition.",
 					abbr:"FSE",
 					year:"2023"
