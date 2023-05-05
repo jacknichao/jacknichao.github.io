@@ -17,6 +17,12 @@ export default {
 			services:[
 				{
 					title:"Journal referee",
+					organization:"Blockchain: Research and Applications",
+					abbr:"BCRA",
+					year:"2023"
+				},
+				{
+					title:"Journal referee",
 					organization:"Automated Software Engineering-Journal",
 					abbr:"ASEJ",
 					year:"2023"

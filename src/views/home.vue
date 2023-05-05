@@ -107,6 +107,10 @@ export default {
 			],
 			news: [//首页新闻相关的内容放这里
 				{
+					text:"2023/05: Our one paper was accepted by FSE'23!",
+					award_winning: false //表示是否获奖，获奖的话，可以添加徽章
+				},
+				{
 					text:"2022/12: Our one paper was accepted by TOSEM'22!",
 					award_winning: false //表示是否获奖，获奖的话，可以添加徽章
 				},
@@ -134,6 +138,16 @@ export default {
 				// "CCF 等级"
 				// "是否获奖"
 				// ),
+				genPublicationObj(
+					"FSE'23",
+					confs.FSE,
+					"Distinguishing Look-Alike Innocent and Vulnerable Code by Subtle Semantic Representation Learning and Explanation",
+					["Chao Ni", "Xin Yin", "Kaiwen Yang", "Dehai Zhao", "Zhenchang Xing", "Xin Xia"],
+					["Xin Xia"],
+					"May 2023",
+					"[CCF-A]", 
+					false, 
+				),
 				genPublicationObj(
 					"TOSEM'22",
 					confs.TOSEM,
