@@ -16,6 +16,7 @@ const confs = {
 	EMSE:"Empirical Software Engineering",
 	ICPC:"International Conference on Program Comprehension",
 	MSR:"International Conference on Mining Software Repositories",
-	ASEJ:"Automated Software Engineering Journal"
+	ASEJ:"Automated Software Engineering Journal",
+	Internetware:"Asia-Pacific Symposium on Internetware"
 }
 export default confs
