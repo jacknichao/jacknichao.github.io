@@ -42,7 +42,7 @@ nav {
 
 <style>
 body {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: auto;
   padding: 1em;
   line-height: 1.5em;

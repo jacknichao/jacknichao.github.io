@@ -102,8 +102,8 @@ export default {
 							title: "Boosting Just-in-Time Defect Prediction with Specific Features of C/C++ Programming Languages in Code Changes",
 							authors: ["Chao Ni", "Xiaodan Xu", "Kaiwen Yang", "David Lo"],
  							corresponding_authors: ["Chao Ni"],
-							pdf: "",
-							doi: "",
+							pdf: "./pdf/msr23-technical91.pdf",
+							doi: "https://doi.org/10.1109/MSR59073.2023.00072",
 							CCF_grade: "(CCF-C)",
 							award_winning: false
 						},
@@ -114,8 +114,8 @@ export default {
 							title: "FVA: Assessing Function-Level Vulnerability by Integrating Flow-Sensitive Structure and Code Statement Semantic",
 							authors: ["Chao Ni", "Liyu Shen", "Wei Wang", "Xiang Chen", "Xin Yin", "Lexiao Zhang"],
  							corresponding_authors: ["Chao Ni"],
-							pdf: "",
-							doi: "",
+							pdf: "./pdf/icpc23-p34.pdf",
+							doi: "https://doi.org/10.1109/ICPC58990.2023.00048",
 							CCF_grade: "(CCF-B)",
 							award_winning: false
 						},
@@ -132,7 +132,7 @@ export default {
 							authors: ["Zhaoqiang Guo", "Shiran Liu", "Xutong Liu",  "Wei Lai", "Mingliang Ma", "Xu Zhang", "Chao Ni", "Yibiao Yang",  "Yanhui Li", "Lin Chen", "Guoqiang Zhou", "Yuming Zhou"],
  							corresponding_authors: ["Yuming Zhou"],
 							pdf: "",
-							doi: "",
+							doi: "https://doi.org/10.1145/3582572",
 							CCF_grade: "(CCF-A)",
 							award_winning: false
 						},
@@ -143,8 +143,8 @@ export default {
 							title: "Automatic Identification of Crash-inducing Smart Contracts",
 							authors: ["Chao Ni", "Cong Tian", "Kaiwen Yang", "David Lo", "Jiachi Chen",  "Xiaohu Yang"],
  							corresponding_authors: ["Chao Ni"],
-							pdf: "",
-							doi: "",
+							pdf: "./pdf/saner23-p1836.pdf",
+							doi: "https://doi.org/10.1109/SANER56733.2023.00020",
 							CCF_grade: "(CCF-B)",
 							award_winning: false
 						},
