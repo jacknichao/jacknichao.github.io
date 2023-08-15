@@ -107,6 +107,10 @@ export default {
 			],
 			news: [//首页新闻相关的内容放这里
 				{
+					text:"2023/08: Our two papers were accepted by ASE'23 Industry Challenge (Competition) Track!",
+					award_winning: false //表示是否获奖，获奖的话，可以添加徽章
+				},
+				{
 					text:"2023/07: Our one paper was accepted by FSE'23 Industry Track!",
 					award_winning: false //表示是否获奖，获奖的话，可以添加徽章
 				},

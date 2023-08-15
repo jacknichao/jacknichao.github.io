@@ -17,6 +17,7 @@ const confs = {
 	ICPC:"International Conference on Program Comprehension",
 	MSR:"International Conference on Mining Software Repositories",
 	ASEJ:"Automated Software Engineering Journal",
+	ASE:"International Conference on Automated Software Engineering",
 	Internetware:"Asia-Pacific Symposium on Internetware",
 	CEISEE:"China-Europe International Symposium on Software Engineering Education"
 }

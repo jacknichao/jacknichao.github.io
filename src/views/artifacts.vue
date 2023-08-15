@@ -13,6 +13,11 @@ export default {
 		return {
 			artifacts: [
 				{
+					name: "SVulD",
+					description: "Distinguishing Look-Alike Innocent and Vulnerable Code by Subtle Semantic Representation Learning and Explanation",
+					url: "https://github.com/jacknichao/SVulD"
+				},
+				{
 					name: "CrashSCDet",
 					description: "Automatic Identification of Crash-inducing Smart Contracts",
 					url: "https://github.com/jacknichao/CrashSCDet"

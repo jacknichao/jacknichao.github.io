@@ -8,7 +8,7 @@
 		<b>Journal Papers</b>: &emsp;IEEE Transactions on Software Engineering(TSE) * 1, &emsp; ACM Transactions on Software Engineering and Methodology(TOSEM) * 2,  &emsp;Journal of Systems and Software(JSS) *1.&emsp; Information and Software Technology(IST) * 2, &emsp; Journal of Software: Evolution and Process(JSEP) * 2; &emsp; Journal of Computer Science and Technology(JCST) * 1.
 	</li>
 	<li>
-	<b>Conference Papers</b>: &emsp;FSE * 3,&emsp;SANER * 1,&emsp;ISSRE * 1,&emsp;ICPC * 1,&emsp;MSR * 1,&emsp;COMPSAC * 1,&emsp; Internetware * 1,&emsp;SEKE * 1.
+	<b>Conference Papers</b>: &emsp;FSE * 3, &emsp;ASE * 2, &emsp;SANER * 1,&emsp;ISSRE * 1,&emsp;ICPC * 1,&emsp;MSR * 1,&emsp;COMPSAC * 1,&emsp; Internetware * 1,&emsp;SEKE * 1.
 	</li>
 	<li>
 		<b>Papers in Chinese</b>: &emsp;软件学报 * 3, &emsp;计算机科学 * 1,&emsp; 计算机工程与应用 * 1,&emsp; 高等工程教育研究 * 1.
@@ -72,6 +72,31 @@ export default {
 					year: "2023",
 					items: [
 						{
+							id: "C12",
+							short: "ASE",
+							long: confs["ASE"],
+							title: " Unifying Defect Prediction, Categorization, and Repair by Multi-task Deep Learning",
+							authors: ["Chao Ni", "Kaiwen Yang", "Yan Zhu", "Xiang Chen", "Xiaohu Yang"],
+ 							corresponding_authors: ["Yan Zhu"],
+							pdf: "",
+							doi: "",
+							CCF_grade: "(CCF-A)",
+							award_winning: false
+						},
+						{
+							id: "C11",
+							short: "ASE",
+							long: confs["ASE"],
+							title: "Function-level Vulnerability Detection Through Fusing Multi-Modal Knowledge",
+							authors: ["Chao Ni", "Xinrong Guo", "Yan Zhu", "Xiaodan Xu", "Xiaohu Yang"],
+ 							corresponding_authors: ["Yan Zhu"],
+							pdf: "",
+							doi: "",
+							CCF_grade: "(CCF-A)",
+							award_winning: false
+						},
+
+						{
 							id: "C10",
 							short: "FSE",
 							long: confs["FSE"],
@@ -103,7 +128,7 @@ export default {
 							authors: ["Chao Ni", "Xin Yin", "Kaiwen Yang", "Dehai Zhao", "Zhenchang Xing", "Xin Xia"],
  							corresponding_authors: ["Xin Xia"],
 							pdf: "",
-							doi: "",
+							doi: "https://doi.org/10.1145/3611643.3616358",
 							CCF_grade: "(CCF-A)",
 							award_winning: false
 						},
