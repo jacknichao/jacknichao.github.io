@@ -7,7 +7,8 @@ const confs = {
 	JCST:"Journal of Computer Science and Technology",
 	COMPSAC:"IEEE Annual Computer Software and Applications Conference",
 	TOSEM:"ACM Transactions on Software Engineering and Methodology",
-	FSE:"ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)",
+	FSE:"ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering",
+	FSE_I:"ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (Industry Track)",
 	TechDebt:"International Conference on Technical Debt",
 	APSEC:"Asia-Pacific Software Engineering Conference",
 	ISSRE:"IEEE International Symposium on Software Reliability Engineering",
@@ -18,6 +19,7 @@ const confs = {
 	MSR:"International Conference on Mining Software Repositories",
 	ASEJ:"Automated Software Engineering Journal",
 	ASE:"International Conference on Automated Software Engineering",
+	ASE_I:"International Conference on Automated Software Engineering (Industry Track)",
 	Internetware:"Asia-Pacific Symposium on Internetware",
 	CEISEE:"China-Europe International Symposium on Software Engineering Education"
 }

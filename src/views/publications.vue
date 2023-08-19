@@ -74,7 +74,7 @@ export default {
 						{
 							id: "C12",
 							short: "ASE",
-							long: confs["ASE"],
+							long: confs["ASE_I"],
 							title: " Unifying Defect Prediction, Categorization, and Repair by Multi-task Deep Learning",
 							authors: ["Chao Ni", "Kaiwen Yang", "Yan Zhu", "Xiang Chen", "Xiaohu Yang"],
  							corresponding_authors: ["Yan Zhu"],
@@ -86,7 +86,7 @@ export default {
 						{
 							id: "C11",
 							short: "ASE",
-							long: confs["ASE"],
+							long: confs["ASE_I"],
 							title: "Function-level Vulnerability Detection Through Fusing Multi-Modal Knowledge",
 							authors: ["Chao Ni", "Xinrong Guo", "Yan Zhu", "Xiaodan Xu", "Xiaohu Yang"],
  							corresponding_authors: ["Yan Zhu"],
@@ -99,7 +99,7 @@ export default {
 						{
 							id: "C10",
 							short: "FSE",
-							long: confs["FSE"],
+							long: confs["FSE_I"],
 							title: "C3: Code Clone-based Identification of Duplicated Components",
 							authors: ["Yanming Yang", "Ying Zou", "Xing Hu", "David Lo", "Chao Ni", "John Grundy", "Xin Xia"],
  							corresponding_authors: [],
