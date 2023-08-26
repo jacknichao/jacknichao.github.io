@@ -100,7 +100,7 @@ export default {
 		return {
 			email: "chaoni@zju.edu.cn",
 			interests: [
-				"Data Analysis",
+				"Software Testing: fuzzing",
 				"Software Analytics: automated defect prediction, automated defect localization, and automated defect repair",
 				"Software Security: automated vulnerability detection, automated vulnerability localization, and vulnerability explanation",				
 				"BlockChain",
