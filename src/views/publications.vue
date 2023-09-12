@@ -5,7 +5,7 @@
 <h2 >Publication Summary</h2>
 <ul>
 	<li>
-		<b>Journal Papers</b>: &emsp;IEEE Transactions on Software Engineering(TSE) * 1, &emsp; ACM Transactions on Software Engineering and Methodology(TOSEM) * 2,  &emsp;Journal of Systems and Software(JSS) *1.&emsp; Information and Software Technology(IST) * 2, &emsp; Journal of Software: Evolution and Process(JSEP) * 2; &emsp; Journal of Computer Science and Technology(JCST) * 1.
+		<b>Journal Papers</b>: &emsp;IEEE Transactions on Software Engineering(TSE) * 1, &emsp; ACM Transactions on Software Engineering and Methodology(TOSEM) * 2,  &emsp;Journal of Systems and Software(JSS) *2.&emsp; Information and Software Technology(IST) * 2, &emsp; Journal of Software: Evolution and Process(JSEP) * 2; &emsp; Journal of Computer Science and Technology(JCST) * 1.
 	</li>
 	<li>
 	<b>Conference Papers</b>: &emsp;FSE * 3, &emsp;ASE * 2, &emsp;SANER * 1,&emsp;ISSRE * 1,&emsp;ICPC * 1,&emsp;MSR * 1,&emsp;COMPSAC * 1,&emsp; Internetware * 1,&emsp;SEKE * 1.
@@ -35,7 +35,9 @@
 			<i v-if="item.CCF_grade.length > 0">{{ item.CCF_grade }}</i>
 			<!-- //这里写你想添加的badge,pub.CCF_grade是字符串,具体的等级 -->
 			&nbsp;&nbsp;
-			<i v-if="item.award_winning">获奖了</i>
+			<i v-if="item.award_winning"><font color="#A92217"><b>[{{item.award_winning_title}}]</b></font> 
+			<img src="../assets/award.png" style="max-width:2.5%;min-width:2.5%; border-radius: 50%"/>
+			</i>
 			<!-- //这里写你想添加的badge,award_winning是布尔型,所以只决定badge的有无即可 -->
 			<br>
 			<span v-for="(auth,index) in item.authors">
@@ -71,6 +73,18 @@ export default {
 			{
 					year: "2023",
 					items: [
+						{
+							id: "J10",
+							short: "JSS",
+							long: confs["JSS"],
+							title: "Boosting Multi-objective Just-in-time Software Defect Prediction by Fusing Expert Metrics and Semantic Metrics",
+							authors: ["Xiang Chen", "Hongling Xia", "Wenlong Pei",  "Chao Ni", "Ke Liu"],
+ 							corresponding_authors: ["Xiang Chen"],
+							pdf: "",
+							doi: "",
+							CCF_grade: "(CCF-B)",
+							award_winning: false
+						},
 						{
 							id: "C12",
 							short: "ASE",
@@ -370,7 +384,8 @@ export default {
 							pdf: "./pdf/*.pdf",
 							doi: "",
 							CCF_grade: "(教育)",
-							award_winning: false
+							award_winning: true,
+							award_winning_title:"Best Paper Award"
 						},			
 						{
 							id: "CJ6",
