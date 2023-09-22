@@ -182,7 +182,7 @@ export default {
 							title: "Code-line-level bugginess identification: How far have we come, and how far have we yet to go?",
 							authors: ["Zhaoqiang Guo", "Shiran Liu", "Xutong Liu",  "Wei Lai", "Mingliang Ma", "Xu Zhang", "Chao Ni", "Yibiao Yang",  "Yanhui Li", "Lin Chen", "Guoqiang Zhou", "Yuming Zhou"],
  							corresponding_authors: ["Yuming Zhou"],
-							pdf: "",
+							pdf: "./pdf/tosem-2022-codeline.pdf",
 							doi: "https://doi.org/10.1145/3582572",
 							CCF_grade: "(CCF-A)",
 							award_winning: false
