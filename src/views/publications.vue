@@ -80,8 +80,8 @@ export default {
 							title: "Boosting Multi-objective Just-in-time Software Defect Prediction by Fusing Expert Metrics and Semantic Metrics",
 							authors: ["Xiang Chen", "Hongling Xia", "Wenlong Pei",  "Chao Ni", "Ke Liu"],
  							corresponding_authors: ["Xiang Chen"],
-							pdf: "",
-							doi: "",
+							pdf: "./pdf/JSS-111853.pdf",
+							doi: "https://doi.org/10.1016/j.jss.2023.111853",
 							CCF_grade: "(CCF-B)",
 							award_winning: false
 						},
