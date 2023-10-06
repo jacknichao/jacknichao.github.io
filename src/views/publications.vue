@@ -92,7 +92,7 @@ export default {
 							title: " Unifying Defect Prediction, Categorization, and Repair by Multi-task Deep Learning",
 							authors: ["Chao Ni", "Kaiwen Yang", "Yan Zhu", "Xiang Chen", "Xiaohu Yang"],
  							corresponding_authors: ["Yan Zhu"],
-							pdf: "",
+							pdf: "./pdf/ase23-industry-challenge-54.pdf",
 							doi: "",
 							CCF_grade: "(CCF-A)",
 							award_winning: false
@@ -104,7 +104,7 @@ export default {
 							title: "Function-level Vulnerability Detection Through Fusing Multi-Modal Knowledge",
 							authors: ["Chao Ni", "Xinrong Guo", "Yan Zhu", "Xiaodan Xu", "Xiaohu Yang"],
  							corresponding_authors: ["Yan Zhu"],
-							pdf: "",
+							pdf: "./pdf/ase23-industry-challenge-25.pdf",
 							doi: "",
 							CCF_grade: "(CCF-A)",
 							award_winning: false
