@@ -116,9 +116,9 @@ export default {
 							long: confs["FSE_I"],
 							title: "C3: Code Clone-based Identification of Duplicated Components",
 							authors: ["Yanming Yang", "Ying Zou", "Xing Hu", "David Lo", "Chao Ni", "John Grundy", "Xin Xia"],
- 							corresponding_authors: [],
-							pdf: "",
-							doi: "",
+ 							corresponding_authors: ["Xing Hu"],
+							pdf: "./pdf/fse23industry-p64.pdf",
+							doi: "https://doi.org/10.1145/3611643.3613883",
 							CCF_grade: "(CCF-A)",
 							award_winning: false
 						},
@@ -130,7 +130,7 @@ export default {
 							authors: ["Jisheng Wang", "Lingfeng Bao", "Chao Ni"],
  							corresponding_authors: ["Lingfeng Bao"],
 							pdf: "",
-							doi: "",
+							doi: "https://doi.org/10.1145/3609437.3609454",
 							CCF_grade: "(CCF-C)",
 							award_winning: false
 						},
@@ -141,7 +141,7 @@ export default {
 							title: "Distinguishing Look-Alike Innocent and Vulnerable Code by Subtle Semantic Representation Learning and Explanation",
 							authors: ["Chao Ni", "Xin Yin", "Kaiwen Yang", "Dehai Zhao", "Zhenchang Xing", "Xin Xia"],
  							corresponding_authors: ["Xin Xia"],
-							pdf: "",
+							pdf: "./pdf/fse23main-p1405.pdf",
 							doi: "https://doi.org/10.1145/3611643.3616358",
 							CCF_grade: "(CCF-A)",
 							award_winning: false
