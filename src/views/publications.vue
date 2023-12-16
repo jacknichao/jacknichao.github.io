@@ -5,7 +5,7 @@
 <h2 >Publication Summary</h2>
 <ul>
 	<li>
-		<b>Journal Papers</b>: &emsp;IEEE Transactions on Software Engineering(TSE) * 1, &emsp; ACM Transactions on Software Engineering and Methodology(TOSEM) * 2,  &emsp;Journal of Systems and Software(JSS) *2.&emsp; Information and Software Technology(IST) * 2, &emsp; Journal of Software: Evolution and Process(JSEP) * 2; &emsp; Journal of Computer Science and Technology(JCST) * 1.
+		<b>Journal Papers</b>: &emsp;IEEE Transactions on Software Engineering(TSE) * 2, &emsp; ACM Transactions on Software Engineering and Methodology(TOSEM) * 2,  &emsp;Journal of Systems and Software(JSS) *2.&emsp; Information and Software Technology(IST) * 2, &emsp; Journal of Software: Evolution and Process(JSEP) * 2; &emsp; Journal of Computer Science and Technology(JCST) * 1.
 	</li>
 	<li>
 	<b>Conference Papers</b>: &emsp;FSE * 3, &emsp;ASE * 2, &emsp;SANER * 1,&emsp;ISSRE * 1,&emsp;ICPC * 1,&emsp;MSR * 1,&emsp;COMPSAC * 1,&emsp; Internetware * 1,&emsp;SEKE * 1.
@@ -73,6 +73,19 @@ export default {
 			{
 					year: "2023",
 					items: [
+						{
+							id: "J11",
+							short: "TSE",
+							long: confs["TSE"],
+							title: "Federated Learning for Software Engineering: A Case Study of Code Clone Detection and Defect Prediction",
+							authors: ["Yanming Yang", "Xing Hu", "Zhipeng Gao", "Jinfu Chen", "Chao Ni", "Xin Xia", "David Lo"],
+ 							corresponding_authors: [""],
+							pdf: "",
+							doi: "",
+							CCF_grade: "(CCF-A)",
+							award_winning: false
+						},
+
 						{
 							id: "J10",
 							short: "JSS",

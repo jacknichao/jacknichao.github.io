@@ -17,6 +17,30 @@ export default {
 			services:[
 				{
 					title:"Journal referee",
+					organization:"IEEE Transactions on Reliability",
+					abbr:"TR",
+					year:"2023"
+				},
+				{
+					title:"Journal referee",
+					organization:"ACM Transactions on Software Engineering and Methodology",
+					abbr:"TOSEM",
+					year:"2023"
+				},
+				{
+					title:"Journal referee",
+					organization:"IEEE Transactions on Software Engineering",
+					abbr:"TSE",
+					year:"2023"
+				},
+				{
+					title:"Journal referee",
+					organization:"Empirical Software Engineering",
+					abbr:"EMSE",
+					year:"2023"
+				},
+				{
+					title:"Journal referee",
 					organization:"Journal of Software: Evolution and Process",
 					abbr:"JSEP",
 					year:"2023"

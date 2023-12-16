@@ -3,6 +3,7 @@
 
 	<h1 id="bissyande">Chao Ni, 倪超</h1>
 	<font size="5">
+		Associate Professor (副教授)<br />
 		Distinguished Research Fellow (特聘研究员)<br />
 		School of Software Technology<br />
 		Zhejiang University <br />
@@ -107,6 +108,10 @@ export default {
 			],
 			news: [//首页新闻相关的内容放这里
 				{
+					text:"2023/12: Our one paper were accepted by TSE'23!",
+					award_winning: false //表示是否获奖，获奖的话，可以添加徽章
+				},
+				{
 					text:"2023/08: Our two papers were accepted by ASE'23 Industry Challenge (Competition) Track!",
 					award_winning: false //表示是否获奖，获奖的话，可以添加徽章
 				},
@@ -146,6 +151,16 @@ export default {
 				// "CCF 等级"
 				// "是否获奖"
 				// ),
+				genPublicationObj(
+					"TSE'23",
+					confs.TSE,
+					"Federated Learning for Software Engineering: A Case Study of Code Clone Detection and Defect Prediction",
+					["Yanming Yang", "Xing Hu", "Zhipeng Gao", "Jinfu Chen", "Chao Ni", "Xin Xia", "David Lo"],
+					[""],
+					"Dec 2023",
+					"[CCF-A]", 
+					false, 
+				),
 				genPublicationObj(
 					"FSE'23",
 					confs.FSE,
@@ -196,39 +211,6 @@ export default {
 					"[CCF-A]",
 					false
 				),
-				genPublicationObj(
-					"JSS'19",
-					confs.JSS,
-					"An empirical study on pareto based multi-objective feature selection for software defect prediction",
-					["Chao Ni", "Xiang Chen", "Fangfang Wu", "Yuxiang Shen", "Qing Gu"],
-					["Qing Gu"],
-					"June 2019",
-					"[CCF-B]",
-					false
-				),
-	
-				genPublicationObj(
-					"JSEP'19",
-					confs.JSEP,
-					"Multi-task Defect Prediction",
-					["Chao Ni", "Xiang Chen", "Xin Xia", "Qing Gu", "Yingquan Zhao"],
-					["Qing Gu"],
-					"May 2019",
-					"[CCF-B]",
-					false
-				),
-			
-			
-				genPublicationObj(
-					"JCST'17",
-					confs.JCST,
-					"A Cluster Based Feature Selection Method for Cross-Project Software Defect Prediction",
-					["Chao Ni", "Wangshu Liu", "Xiang Chen", "Qing Gu", "Daoxu Chen", "Qiguo Huang"],
-					["Qing Gu"],
-					"November 2017",
-					"[CCF-B]",
-					false
-				),
 			],
 			awards: [
 				// "fjdak",
@@ -245,7 +227,7 @@ export default {
 					"School of Software Technology, Zhejiang University, Hangzhou, China",
 					"July 2020",
 					"Now",
-					"Distinguished Research Fellow"
+					"Associate Professor & Distinguished Research Fellow"
 				),
 				genExpObj(
 					"Monash University, Melbourne, Australia. supported by China Scholarship Council (CSC.)",

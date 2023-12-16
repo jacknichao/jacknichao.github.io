@@ -7,6 +7,7 @@ const confs = {
 	JCST:"Journal of Computer Science and Technology",
 	COMPSAC:"IEEE Annual Computer Software and Applications Conference",
 	TOSEM:"ACM Transactions on Software Engineering and Methodology",
+	TR:"IEEE Transactions on Reliability",
 	FSE:"ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering",
 	FSE_I:"ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (Industry Track)",
 	TechDebt:"International Conference on Technical Debt",

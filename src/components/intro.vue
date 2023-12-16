@@ -1,6 +1,6 @@
 <template>
 	<span>
-		I am currently a Distinguished Research Fellow at the School of Software Technology, Zhejiang University, China. I am very fortunate to work under the supervision of <a href="https://person.zju.edu.cn/en/xiaohu">Prof. Xiaohu Yang</a>.
+		I am currently a Associate Professor at the School of Software Technology, Zhejiang University, China. I am very fortunate to work under the supervision of <a href="https://person.zju.edu.cn/en/xiaohu">Prof. Xiaohu Yang</a>.
 		<br/>
 		<br/>
 		I got my Ph.D degree in June 2020 from Department of Computer Science and Technology, Nanjing University, China. My
