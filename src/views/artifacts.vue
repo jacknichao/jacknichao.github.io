@@ -13,6 +13,16 @@ export default {
 		return {
 			artifacts: [
 				{
+					name: "CompDefect",
+					description: "Unifying Defect Prediction, Categorization, and Repair by Multi-task Deep Learning",
+					url: "https://github.com/jacknichao/CompDefect"
+				},
+				{
+					name: "MVulD",
+					description: "Function-level Vulnerability Detection Through Fusing Multi-Modal Knowledge",
+					url: "https://github.com/jacknichao/MVulD"
+				},
+				{
 					name: "SVulD",
 					description: "Distinguishing Look-Alike Innocent and Vulnerable Code by Subtle Semantic Representation Learning and Explanation",
 					url: "https://github.com/jacknichao/SVulD"
