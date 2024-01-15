@@ -8,7 +8,7 @@
 		<b>Journal Papers</b>: &emsp;IEEE Transactions on Software Engineering(TSE) * 2, &emsp; ACM Transactions on Software Engineering and Methodology(TOSEM) * 2,  &emsp;Journal of Systems and Software(JSS) *2.&emsp; Information and Software Technology(IST) * 2, &emsp; Journal of Software: Evolution and Process(JSEP) * 2; &emsp; Journal of Computer Science and Technology(JCST) * 1.
 	</li>
 	<li>
-	<b>Conference Papers</b>: &emsp;FSE * 3, &emsp;ASE * 2, &emsp;SANER * 1,&emsp;ISSRE * 1,&emsp;ICPC * 1,&emsp;MSR * 1,&emsp;COMPSAC * 1,&emsp; Internetware * 1,&emsp;SEKE * 1.
+	<b>Conference Papers</b>: &emsp;FSE * 3, &emsp;ASE * 2, &emsp;SANER * 1,&emsp;ISSRE * 1,&emsp;ICPC * 1,&emsp;MSR * 2,&emsp;COMPSAC * 1,&emsp; Internetware * 1,&emsp;SEKE * 1.
 	</li>
 	<li>
 		<b>Papers in Chinese</b>: &emsp;软件学报 * 3, &emsp;计算机科学 * 1,&emsp; 计算机工程与应用 * 1,&emsp; 高等工程教育研究 * 1.
@@ -70,7 +70,24 @@ export default {
 	data() {
 		return {
 			publications: [
-			{
+				{
+					year: "2024",
+					items: [
+						{
+							id: "C13",
+							short: "MSR",
+							long: confs["MSR"],
+							title: "MegaVul: A C/C++ Vulnerability Dataset with Comprehensive  Code Representation",
+							authors: ["Chao Ni", "Liyu Shen", "Xiaohu Yang", "Yan Zhu","Shaohua Wang"],
+							corresponding_authors: ["Yan Zhu"],
+							pdf: "",
+							doi: "",
+							CCF_grade: "(CCF-C)",
+							award_winning: false
+						}
+					]
+				},
+				{
 					year: "2023",
 					items: [
 						{

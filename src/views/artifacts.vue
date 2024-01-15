@@ -13,6 +13,11 @@ export default {
 		return {
 			artifacts: [
 				{
+					name: "MegaVul",
+					description: "A C/C++ Vulnerability Dataset with Comprehensive  Code Representation",
+					url: "https://github.com/Icyrockton/MegaVul"
+				},
+				{
 					name: "CompDefect",
 					description: "Unifying Defect Prediction, Categorization, and Repair by Multi-task Deep Learning",
 					url: "https://github.com/jacknichao/CompDefect"
