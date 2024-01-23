@@ -107,8 +107,12 @@ export default {
 				"BlockChain",
 			],
 			news: [//首页新闻相关的内容放这里
+			{
+					text:"2024/01: Our one paper was accepted by FSE'24!",
+					award_winning: false //表示是否获奖，获奖的话，可以添加徽章
+				},
 				{
-					text:"2023/12: Our one paper were accepted by TSE'23!",
+					text:"2023/12: Our one paper was accepted by TSE'23!",
 					award_winning: false //表示是否获奖，获奖的话，可以添加徽章
 				},
 				{
@@ -151,6 +155,16 @@ export default {
 				// "CCF 等级"
 				// "是否获奖"
 				// ),
+				genPublicationObj(
+					"FSE'24",
+					confs.TSE,
+					"Natural Is The Best: Model-Agnostic Code Simplification for Pre-trained Large Language Models",
+					["Yan Wang", "Xiaoning Li", "Tien Nguyen", "Shaohua Wang","Chao Ni", "Ling Ding"],
+					[""],
+					"Jan 2024",
+					"[CCF-A]", 
+					false, 
+				),
 				genPublicationObj(
 					"TSE'23",
 					confs.TSE,
