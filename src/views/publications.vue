@@ -80,8 +80,8 @@ export default {
 							title: "Natural Is The Best: Model-Agnostic Code Simplification for Pre-trained Large Language Models",
 							authors: ["Yan Wang", "Xiaoning Li", "Tien Nguyen", "Shaohua Wang","Chao Ni", "Ling Ding"],
 							corresponding_authors: [""],
-							pdf: "",
-							doi: "",
+							pdf: "./pdf/fse24main-p437.pdf",
+							doi: "https://doi.org/10.1145/3643753",
 							CCF_grade: "(CCF-A)",
 							award_winning: false
 						},
@@ -92,8 +92,8 @@ export default {
 							title: "MegaVul: A C/C++ Vulnerability Dataset with Comprehensive  Code Representation",
 							authors: ["Chao Ni", "Liyu Shen", "Xiaohu Yang", "Yan Zhu","Shaohua Wang"],
 							corresponding_authors: ["Yan Zhu"],
-							pdf: "",
-							doi: "",
+							pdf: "msr2024-data-tool-p88",
+							doi: "https://doi.org/10.1145/3643991.3644886",
 							CCF_grade: "(CCF-C)",
 							award_winning: false
 						}
@@ -109,8 +109,8 @@ export default {
 							title: "Federated Learning for Software Engineering: A Case Study of Code Clone Detection and Defect Prediction",
 							authors: ["Yanming Yang", "Xing Hu", "Zhipeng Gao", "Jinfu Chen", "Chao Ni", "Xin Xia", "David Lo"],
  							corresponding_authors: [""],
-							pdf: "",
-							doi: "",
+							pdf: "./pdf/tse-2022-12-0515.pdf",
+							doi: "https://doi.org/10.1109/TSE.2023.3347898",
 							CCF_grade: "(CCF-A)",
 							award_winning: false
 						},
@@ -131,11 +131,11 @@ export default {
 							id: "C12",
 							short: "ASE",
 							long: confs["ASE_I"],
-							title: " Unifying Defect Prediction, Categorization, and Repair by Multi-task Deep Learning",
+							title: "Unifying Defect Prediction, Categorization, and Repair by Multi-task Deep Learning",
 							authors: ["Chao Ni", "Kaiwen Yang", "Yan Zhu", "Xiang Chen", "Xiaohu Yang"],
  							corresponding_authors: ["Yan Zhu"],
 							pdf: "./pdf/ase23-industry-challenge-54.pdf",
-							doi: "",
+							doi: "https://doi.org/10.1109/ASE56229.2023.00083",
 							CCF_grade: "(CCF-A)",
 							award_winning: false
 						},
@@ -147,7 +147,7 @@ export default {
 							authors: ["Chao Ni", "Xinrong Guo", "Yan Zhu", "Xiaodan Xu", "Xiaohu Yang"],
  							corresponding_authors: ["Yan Zhu"],
 							pdf: "./pdf/ase23-industry-challenge-25.pdf",
-							doi: "",
+							doi: "https://doi.org/10.1109/ASE56229.2023.00084",
 							CCF_grade: "(CCF-A)",
 							award_winning: false
 						},
