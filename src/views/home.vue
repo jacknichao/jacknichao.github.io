@@ -101,12 +101,17 @@ export default {
 		return {
 			email: "chaoni@zju.edu.cn",
 			interests: [
-				"Software Testing: fuzzing",
+				"Software Testing: Fuzzing + X",
 				"Software Analytics: automated defect prediction, automated defect localization, and automated defect repair",
 				"Software Security: automated vulnerability detection, automated vulnerability localization, and vulnerability explanation",				
 				"BlockChain",
+				"Open Source: open source software supply chain; developer analysis;"
 			],
 			news: [//首页新闻相关的内容放这里
+			{
+					text:"2024/07: Our one paper was accepted by ISSTA'24!",
+					award_winning: false //表示是否获奖，获奖的话，可以添加徽章
+				},
 			{
 					text:"2024/01: Our one paper was accepted by FSE'24!",
 					award_winning: false //表示是否获奖，获奖的话，可以添加徽章
@@ -155,6 +160,16 @@ export default {
 				// "CCF 等级"
 				// "是否获奖"
 				// ),
+				genPublicationObj(
+					"ISSTA'24",
+					confs.ISSTA,
+					"ThinkRepair: Self-Directed Automated Program Repair",
+					["Xin Yin", "Chao Ni", "Shaohua Wang","Zhenhao Li", "Limin Zeng", "Xiaohu Yang"],
+					[""],
+					"July 2024",
+					"[CCF-A]", 
+					false, 
+				),
 				genPublicationObj(
 					"FSE'24",
 					confs.TSE,

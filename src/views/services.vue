@@ -15,6 +15,30 @@ export default {
 	data(){
 		return {
 			services:[
+			{
+					title:"Program Committee",
+					organization:"The Asia-Pacific Symposium on Internetware (Intelligent Software Engineering Track)",
+					abbr:"Internetware",
+					year:"2024"
+				},
+			{
+					title:"Journal referee",
+					organization:"Empirical Software Engineering",
+					abbr:"EMSE",
+					year:"2024"
+				},
+			{
+					title:"Journal referee",
+					organization:"IEEE Transactions on Software Engineering",
+					abbr:"TSE",
+					year:"2024"
+				},
+			{
+					title:"Journal referee",
+					organization:"ACM Transactions on Software Engineering and Methodology",
+					abbr:"TOSEM",
+					year:"2024"
+				},
 				{
 					title:"Journal referee",
 					organization:"IEEE Transactions on Reliability",

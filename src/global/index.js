@@ -22,6 +22,7 @@ const confs = {
 	ASE:"International Conference on Automated Software Engineering",
 	ASE_I:"International Conference on Automated Software Engineering (Industry Track)",
 	Internetware:"Asia-Pacific Symposium on Internetware",
-	CEISEE:"China-Europe International Symposium on Software Engineering Education"
+	CEISEE:"China-Europe International Symposium on Software Engineering Education",
+	ISSTA:"ACM SIGSOFT International Symposium on Software Testing and Analysis"
 }
 export default confs
