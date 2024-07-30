@@ -13,6 +13,11 @@ export default {
 		return {
 			artifacts: [
 				{
+					name: "ThinkRepair",
+					description: "ThinkRepair: Self-Directed Automatic Program Repair",
+					url: "https://github.com/vinci-grape/ThinkRepair"
+				},
+				{
 					name: "MegaVul",
 					description: "A C/C++ Vulnerability Dataset with Comprehensive  Code Representation",
 					url: "https://github.com/Icyrockton/MegaVul"
