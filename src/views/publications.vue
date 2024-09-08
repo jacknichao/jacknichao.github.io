@@ -80,8 +80,8 @@ export default {
 							title: "ThinkRepair: Self-Directed Automated Program Repair",
 							authors: ["Xin Yin", "Chao Ni", "Shaohua Wang","Zhenhao Li", "Limin Zeng", "Xiaohu Yang"],
 							corresponding_authors: ["Chao Ni"],
-							pdf: "",
-							doi: "",
+							pdf: "./pdf/issta24main-p840.pdf",
+							doi: "https://doi.org/10.1145/3650212.3680359",
 							CCF_grade: "(CCF-A)",
 							award_winning: false
 						},
@@ -104,7 +104,7 @@ export default {
 							title: "MegaVul: A C/C++ Vulnerability Dataset with Comprehensive  Code Representation",
 							authors: ["Chao Ni", "Liyu Shen", "Xiaohu Yang", "Yan Zhu","Shaohua Wang"],
 							corresponding_authors: ["Yan Zhu"],
-							pdf: "msr2024-data-tool-p88",
+							pdf: "./pdf/msr2024-data-tool-p88.pdf",
 							doi: "https://doi.org/10.1145/3643991.3644886",
 							CCF_grade: "(CCF-C)",
 							award_winning: false
@@ -183,7 +183,7 @@ export default {
 							title: "An Empirical Study of the Apache Voting Process on Open Source Community Governance",
 							authors: ["Jisheng Wang", "Lingfeng Bao", "Chao Ni"],
  							corresponding_authors: ["Lingfeng Bao"],
-							pdf: "",
+							pdf: "./pdf/internetware23.pdf",
 							doi: "https://doi.org/10.1145/3609437.3609454",
 							CCF_grade: "(CCF-C)",
 							award_winning: false
