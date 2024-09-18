@@ -5,10 +5,10 @@
 <h2 >Publication Summary</h2>
 <ul>
 	<li>
-		<b>Journal Papers</b>: &emsp;IEEE Transactions on Software Engineering(TSE) * 2, &emsp; ACM Transactions on Software Engineering and Methodology(TOSEM) * 2,  &emsp;Journal of Systems and Software(JSS) *2.&emsp; Information and Software Technology(IST) * 2, &emsp; Journal of Software: Evolution and Process(JSEP) * 2; &emsp; Journal of Computer Science and Technology(JCST) * 1.
+		<b>Journal Papers</b>: &emsp;IEEE Transactions on Software Engineering(TSE) * 3, &emsp; ACM Transactions on Software Engineering and Methodology(TOSEM) * 2,  &emsp;Journal of Systems and Software(JSS) *2.&emsp; Information and Software Technology(IST) * 2, &emsp; Journal of Software: Evolution and Process(JSEP) * 2; &emsp; Journal of Computer Science and Technology(JCST) * 1.
 	</li>
 	<li>
-	<b>Conference Papers</b>: &emsp;FSE * 4, &emsp;ASE * 2, &emsp;ISSTA * 1, &emsp;SANER * 1,&emsp;ISSRE * 1,&emsp;ICPC * 1,&emsp;MSR * 2,&emsp;COMPSAC * 1,&emsp; Internetware * 1,&emsp;SEKE * 1.
+	<b>Conference Papers</b>: &emsp;FSE * 4, &emsp;ASE * 2, &emsp;ISSTA * 1, &emsp;SANER * 1,&emsp;ISSRE * 1,&emsp;ICPC * 1,&emsp;MSR * 2,&emsp;COMPSAC * 1,&emsp; Internetware * 1,&emsp;SEKE * 1,&emsp;APSEC * 1.
 	</li>
 	<li>
 		<b>Papers in Chinese</b>: &emsp;软件学报 * 3, &emsp;计算机科学 * 1,&emsp; 计算机工程与应用 * 1,&emsp; 高等工程教育研究 * 1.
@@ -73,6 +73,30 @@ export default {
 				{
 					year: "2024",
 					items: [
+					{
+							id: "C16",
+							short: "APSEC",
+							long: confs["APSEC"],
+							title: "{Automatic Commit Range Identification of Untagged Version",
+							authors: ["Yan Zhu", "Lingfeng Bao", "Chengjie Chen", "Lexiao Zhang", "Xin Yin","Chao Ni"],
+							corresponding_authors: ["Chao Ni"],
+							pdf: "",
+							doi: "",
+							CCF_grade: "(CCF-C)",
+							award_winning: false
+						},
+					{
+							id: "J12",
+							short: "TSE",
+							long: confs["TSE"],
+							title: "Multitask-based Evaluation of Open-Source LLM on Software Vulnerability",
+							authors: ["Xin Yin", "Chao Ni", "Shaohua Wang"],
+ 							corresponding_authors: ["Chao Ni"],
+							pdf: "",
+							doi: "",
+							CCF_grade: "(CCF-A)",
+							award_winning: false
+						},
 						{
 							id: "C15",
 							short: "ISSTA",

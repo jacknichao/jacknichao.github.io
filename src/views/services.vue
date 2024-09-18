@@ -17,6 +17,12 @@ export default {
 			services:[
 			{
 					title:"Program Committee",
+					organization:"The 31th Asia-Pacific Software Engineering Conference.",
+					abbr:"APSEC",
+					year:"2024"
+				},
+			{
+					title:"Program Committee",
 					organization:"The Asia-Pacific Symposium on Internetware (Intelligent Software Engineering Track)",
 					abbr:"Internetware",
 					year:"2024"

@@ -109,6 +109,10 @@ export default {
 			],
 			news: [//首页新闻相关的内容放这里
 			{
+					text:"2024/07: Our one paper was accepted by TSE'24!",
+					award_winning: false //表示是否获奖，获奖的话，可以添加徽章
+				},
+			{
 					text:"2024/07: Our one paper was accepted by ISSTA'24!",
 					award_winning: false //表示是否获奖，获奖的话，可以添加徽章
 				},
@@ -160,6 +164,16 @@ export default {
 				// "CCF 等级"
 				// "是否获奖"
 				// ),
+				genPublicationObj(
+					"TSE'24",
+					confs.TSE,
+					"Multitask-based Evaluation of Open-Source LLM on Software Vulnerability",
+					["Xin Yin", "Chao Ni", "Shaohua Wang"],
+					["Chao Ni"],
+					"September 2024",
+					"[CCF-A]", 
+					false, 
+				),
 				genPublicationObj(
 					"ISSTA'24",
 					confs.ISSTA,
