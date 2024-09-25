@@ -109,7 +109,7 @@ export default {
 			],
 			news: [//首页新闻相关的内容放这里
 			{
-					text:"2024/07: Our one paper was accepted by TSE'24!",
+					text:"2024/09: Our two papers were accepted by TSE'24!",
 					award_winning: false //表示是否获奖，获奖的话，可以添加徽章
 				},
 			{
@@ -164,6 +164,16 @@ export default {
 				// "CCF 等级"
 				// "是否获奖"
 				// ),
+				genPublicationObj(
+					"TSE'24",
+					confs.TSE,
+					"Enhancing Bug-Inducing Commit Identification: A Fine-Grained Semantic Analysis Approach",
+					["Lingxiao Tang", "Chao Ni", "Qiao Huang", "Lingfeng Bao"],
+					[""],
+					"September 2024",
+					"[CCF-A]", 
+					false, 
+				),
 				genPublicationObj(
 					"TSE'24",
 					confs.TSE,
