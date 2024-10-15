@@ -109,6 +109,10 @@ export default {
 			],
 			news: [//首页新闻相关的内容放这里
 			{
+					text:"2024/10: Our one paper was accepted by TOSEM'24!",
+					award_winning: false //表示是否获奖，获奖的话，可以添加徽章
+				},
+			{
 					text:"2024/09: Our two papers were accepted by TSE'24!",
 					award_winning: false //表示是否获奖，获奖的话，可以添加徽章
 				},
@@ -164,6 +168,16 @@ export default {
 				// "CCF 等级"
 				// "是否获奖"
 				// ),
+				genPublicationObj(
+					"TOSEM'24",
+					confs.TOSEM,
+					"Distinguishing LLM-generated from Human-written Code by Contrastive Learning",
+					["Xiaodan Xu", "Chao Ni", "Xinrong Guo", "Shaoxuan Liu", "Xiaoya Wang", "Kui Liu", "Xiaohu Yang"],
+					[""],
+					"October 2024",
+					"[CCF-A]", 
+					false, 
+				),
 				genPublicationObj(
 					"TSE'24",
 					confs.TSE,
