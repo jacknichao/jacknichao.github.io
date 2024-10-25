@@ -1,5 +1,5 @@
 <template>
-	<p><img src="../assets/chaoni.png" style="max-width:15%;min-width:30px;float:right; border-radius: 50%" /></p>
+	<p><img src="../assets/chaoni.jpg" style="max-width:15%;min-width:30px;float:right; border-radius: 5%" /></p>
 
 	<h1 id="bissyande">Chao Ni, 倪超</h1>
 	<font size="5">
