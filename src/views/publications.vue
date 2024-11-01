@@ -8,7 +8,7 @@
 		<b>Journal Papers</b>: &emsp;IEEE Transactions on Software Engineering(TSE) * 4, &emsp; ACM Transactions on Software Engineering and Methodology(TOSEM) * 3,  &emsp;Journal of Systems and Software(JSS) *2.&emsp; Information and Software Technology(IST) * 2, &emsp; Journal of Software: Evolution and Process(JSEP) * 2; &emsp; Journal of Computer Science and Technology(JCST) * 1.
 	</li>
 	<li>
-	<b>Conference Papers</b>: &emsp;FSE * 4, &emsp;ASE * 2, &emsp;ISSTA * 1, &emsp;SANER * 1,&emsp;ISSRE * 1,&emsp;ICPC * 1,&emsp;MSR * 2,&emsp;COMPSAC * 1,&emsp; Internetware * 1,&emsp;SEKE * 1,&emsp;APSEC * 1.
+	<b>Conference Papers</b>: &emsp;FSE * 4, &emsp;ASE * 2, &emsp;ISSTA * 1,&emsp;ICSE * 1, &emsp;SANER * 1,&emsp;ISSRE * 1,&emsp;ICPC * 1,&emsp;MSR * 2,&emsp;COMPSAC * 1,&emsp; Internetware * 1,&emsp;SEKE * 1,&emsp;APSEC * 1.
 	</li>
 	<li>
 		<b>Papers in Chinese</b>: &emsp;软件学报 * 3, &emsp;计算机科学 * 1,&emsp; 计算机工程与应用 * 1,&emsp; 高等工程教育研究 * 1.
@@ -73,6 +73,18 @@ export default {
 				{
 					year: "2024",
 					items: [
+					{
+							id: "C17",
+							short: "ICSE",
+							long: confs["ICSE"],
+							title: "What You See Is What You Get: Attention-based Self-guided Automatic Unit Test Generation",
+							authors: ["Xin Yin", "Chao Ni", "Xiaodan Xu", "Xiaohu Yang"],
+							corresponding_authors: ["Chao Ni"],
+							pdf: "",
+							doi: "",
+							CCF_grade: "(CCF-A)",
+							award_winning: false
+						},
 					{
 							id: "J14",
 							short: "TOSEM",

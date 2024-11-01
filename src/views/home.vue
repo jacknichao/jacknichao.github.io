@@ -109,6 +109,10 @@ export default {
 			],
 			news: [//首页新闻相关的内容放这里
 			{
+					text:"2024/10: Our one paper was accepted by ICSE'25!",
+					award_winning: false //表示是否获奖，获奖的话，可以添加徽章
+				},
+			{
 					text:"2024/10: Our one paper was accepted by TOSEM'24!",
 					award_winning: false //表示是否获奖，获奖的话，可以添加徽章
 				},
