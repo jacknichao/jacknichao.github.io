@@ -173,6 +173,16 @@ export default {
 				// "是否获奖"
 				// ),
 				genPublicationObj(
+					"ICSE'25",
+					confs.ICSE,
+					"What You See Is What You Get: Attention-based Self-guided Automatic Unit Test Generation",
+					["Xin Yin", "Chao Ni", "Xiaodan Xu", "Xiaohu Yang"],
+					[""],
+					"October 2024",
+					"[CCF-A]", 
+					false, 
+				),
+				genPublicationObj(
 					"TOSEM'24",
 					confs.TOSEM,
 					"Distinguishing LLM-generated from Human-written Code by Contrastive Learning",
