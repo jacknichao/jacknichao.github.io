@@ -128,8 +128,8 @@ export default {
 							title: "Multitask-based Evaluation of Open-Source LLM on Software Vulnerability",
 							authors: ["Xin Yin", "Chao Ni", "Shaohua Wang"],
  							corresponding_authors: ["Chao Ni"],
-							pdf: "",
-							doi: "",
+							pdf: "./pdf/TSE-2024-01-0041.pdf",
+							doi: "https://doi.org/10.1109/TSE.2024.3470333",
 							CCF_grade: "(CCF-A)",
 							award_winning: false
 						},
