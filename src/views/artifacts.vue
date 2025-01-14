@@ -13,6 +13,11 @@ export default {
 		return {
 			artifacts: [
 				{
+					name: "CodeGPTSensor",
+					description: "Distinguishing LLM-generated from Human-written Code by Contrastive Learning",
+					url: "https://github.com/doriscullen/CodeGPTSensor"
+				},
+				{
 					name: "ThinkRepair",
 					description: "ThinkRepair: Self-Directed Automatic Program Repair",
 					url: "https://github.com/vinci-grape/ThinkRepair"

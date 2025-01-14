@@ -16,6 +16,12 @@ export default {
 		return {
 			services:[
 			{
+					title:"Journal referee",
+					organization:"Automated Software Engineering-Journal",
+					abbr:"ASEJ",
+					year:"2025"
+				},
+			{
 					title:"Program Committee",
 					organization:"The 31th Asia-Pacific Software Engineering Conference.",
 					abbr:"APSEC",

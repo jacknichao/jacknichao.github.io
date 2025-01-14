@@ -8,7 +8,7 @@
 		<b>Journal Papers</b>: &emsp;IEEE Transactions on Software Engineering(TSE) * 4, &emsp; ACM Transactions on Software Engineering and Methodology(TOSEM) * 3,  &emsp;Journal of Systems and Software(JSS) *2.&emsp; Information and Software Technology(IST) * 2, &emsp; Journal of Software: Evolution and Process(JSEP) * 2; &emsp; Journal of Computer Science and Technology(JCST) * 1.
 	</li>
 	<li>
-	<b>Conference Papers</b>: &emsp;FSE * 4, &emsp;ASE * 2, &emsp;ISSTA * 1,&emsp;ICSE * 1, &emsp;SANER * 1,&emsp;ISSRE * 1,&emsp;ICPC * 1,&emsp;MSR * 2,&emsp;COMPSAC * 1,&emsp; Internetware * 1,&emsp;SEKE * 1,&emsp;APSEC * 1.
+	<b>Conference Papers</b>: &emsp;FSE * 4, &emsp;ASE * 2, &emsp;ISSTA * 1,&emsp;ICSE * 1, &emsp;SANER * 1,&emsp;ISSRE * 1,&emsp;ICPC * 2,&emsp;MSR * 2,&emsp;COMPSAC * 1,&emsp; Internetware * 1,&emsp;SEKE * 1,&emsp;APSEC * 1.
 	</li>
 	<li>
 		<b>Papers in Chinese</b>: &emsp;软件学报 * 3, &emsp;计算机科学 * 1,&emsp; 计算机工程与应用 * 1,&emsp; 高等工程教育研究 * 1.
@@ -70,6 +70,23 @@ export default {
 	data() {
 		return {
 			publications: [
+			{
+					year: "2025",
+					items: [
+					{
+							id: "C18",
+							short: "ICPC",
+							long: confs["ICPC"],
+							title: "Sonar: Detecting Logic Bugs in DBMS through Generating Semantic-aware Non-Optimizing Query",
+							authors: ["Shiyang Ye", "Chao Ni", "Jue Wang", "Qianqian Pang", "Xinrui Li", "Xiaodan Xu"],
+							corresponding_authors: ["Chao Ni"],
+							pdf: "",
+							doi: "",
+							CCF_grade: "(CCF-B)",
+							award_winning: false
+						}
+					]
+				},
 				{
 					year: "2024",
 					items: [
@@ -104,8 +121,8 @@ export default {
 							title: "Enhancing Bug-Inducing Commit Identification: A Fine-Grained Semantic Analysis Approach",
 							authors: ["Lingxiao Tang", "Chao Ni", "Qiao Huang", "Lingfeng Bao"],
  							corresponding_authors: [""],
-							pdf: "",
-							doi: "",
+							pdf: "./pdf/TSE-2024-04-0176.pdf",
+							doi: "https://doi.org/10.1109/TSE.2024.3468296",
 							CCF_grade: "(CCF-A)",
 							award_winning: false
 						},
