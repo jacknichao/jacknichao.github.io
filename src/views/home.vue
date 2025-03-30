@@ -101,13 +101,16 @@ export default {
 		return {
 			email: "chaoni@zju.edu.cn",
 			interests: [
-				"Software Testing: Fuzzing + X",
+				"Software Testing: automatic unit test generation, fuzzing + X",
 				"Software Analytics: automated defect prediction, automated defect localization, and automated defect repair",
 				"Software Security: automated vulnerability detection, automated vulnerability localization, and vulnerability explanation",				
-				"BlockChain",
 				"Open Source: open source software supply chain; developer analysis;"
 			],
 			news: [//首页新闻相关的内容放这里
+			{
+					text:"2025/03: Our one paper was accepted by ISSTA'25!",
+					award_winning: false //表示是否获奖，获奖的话，可以添加徽章
+				},
 			{
 					text:"2024/10: Our one paper was accepted by ICSE'25!",
 					award_winning: false //表示是否获奖，获奖的话，可以添加徽章
@@ -172,6 +175,16 @@ export default {
 				// "CCF 等级"
 				// "是否获奖"
 				// ),
+				genPublicationObj(
+					"ISSTA'25",
+					confs.ISSTA,
+					"More Effective JavaScript Breaking Change Detection via Dynamic Object Relation Graph",
+					["Dezhen Kong","Jiakun Liu","Chao Ni", "David Lo","Lingfeng Bao"],
+					[""],
+					"March 2025",
+					"[CCF-A]", 
+					false, 
+				),
 				genPublicationObj(
 					"ICSE'25",
 					confs.ICSE,
