@@ -17,6 +17,36 @@ export default {
 			services:[
 			{
 					title:"Journal referee",
+					organization:"Journal of Software: Evolution and Process",
+					abbr:"JSEP",
+					year:"2025"
+				},
+			{
+					title:"Journal referee",
+					organization:"Software: Testing, Verification and Reliabllity",
+					abbr:"STVR",
+					year:"2025"
+				},
+			{
+					title:"Program Committee",
+					organization:"The 32th Asia-Pacific Software Engineering Conference.",
+					abbr:"APSEC",
+					year:"2025"
+				},
+			{
+					title:"Journal referee",
+					organization:"IEEE Transactions on Software Engineering",
+					abbr:"TSE",
+					year:"2025"
+				},
+			{
+					title:"Journal referee",
+					organization:"ACM Transactions on Software Engineering and Methodology",
+					abbr:"TOSEM",
+					year:"2025"
+				},
+			{
+					title:"Journal referee",
 					organization:"Automated Software Engineering-Journal",
 					abbr:"ASEJ",
 					year:"2025"
