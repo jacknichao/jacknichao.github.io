@@ -108,6 +108,10 @@ export default {
 			],
 			news: [//首页新闻相关的内容放这里
 			{
+					text:"2025/04: Our one paper was accepted by TOSEM'25!",
+					award_winning: false //表示是否获奖，获奖的话，可以添加徽章
+				},
+			{
 					text:"2025/03: Our one paper was accepted by ISSTA'25!",
 					award_winning: false //表示是否获奖，获奖的话，可以添加徽章
 				},
@@ -175,6 +179,16 @@ export default {
 				// "CCF 等级"
 				// "是否获奖"
 				// ),
+				genPublicationObj(
+					"TOSEM'25",
+					confs.TOSEM,
+					"Abundant Modalities Offer More Nutrients: Multi-Modal-Based Function-level Vulnerability Detection",
+					["Chao Ni", "Xin Yin", "Xinrui Li", "Xiaodan Xu", "Zhi Yu"],
+					[""],
+					"April 2025",
+					"[CCF-A]", 
+					false, 
+				),
 				genPublicationObj(
 					"ISSTA'25",
 					confs.ISSTA,
