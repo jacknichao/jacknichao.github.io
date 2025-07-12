@@ -80,8 +80,8 @@ export default {
 							title: "Semi-Supervised Software Vulnerability Assessment via Code Lexical and Structural Information Fusion",
 							authors: ["Xiang Chen", "Wenlong Pei", "Yiling Huang", "Guilong Lu", "Yong Liu", "Chao Ni"],
  							corresponding_authors: [""],
-							pdf: "",
-							doi: "",
+							pdf: "./pdf/asej25.pdf",
+							doi: "https://doi.org/10.1007/s10515-025-00526-4",
 							CCF_grade: "(CCF-B)",
 							award_winning: false
 						},
@@ -92,8 +92,8 @@ export default {
 							title: "Abundant Modalities Offer More Nutrients: Multi-Modal-Based Function-level Vulnerability Detection",
 							authors: ["Chao Ni", "Xin Yin", "Xinrui Li", "Xiaodan Xu", "Zhi Yu"],
  							corresponding_authors: [""],
-							pdf: "",
-							doi: "",
+							pdf: "./pdf/TOSEM-2024-0521.pdf",
+							doi: "https://doi.org/10.1145/3731557",
 							CCF_grade: "(CCF-A)",
 							award_winning: false
 						},
@@ -104,8 +104,8 @@ export default {
 							title: "More Effective JavaScript Breaking Change Detection via Dynamic Object Relation Graph",
 							authors: ["Dezhen Kong","Jiakun Liu","Chao Ni", "David Lo","Lingfeng Bao"],
 							corresponding_authors: [""],
-							pdf: "",
-							doi: "",
+							pdf: "./pdf/issta25-p1525.pdf",
+							doi: "https://doi.org/10.1145/3728980",
 							CCF_grade: "(CCF-A)",
 							award_winning: false
 						},
@@ -169,8 +169,8 @@ export default {
 							title: "Automatic Commit Range Identification of Untagged Version",
 							authors: ["Yan Zhu", "Lingfeng Bao", "Chengjie Chen", "Lexiao Zhang", "Xin Yin","Chao Ni"],
 							corresponding_authors: ["Chao Ni"],
-							pdf: "",
-							doi: "",
+							pdf: "./pdf/apsec24-p128.pdf",
+							doi: "https://doi.org/10.1109/APSEC65559.2024.00018",
 							CCF_grade: "(CCF-C)",
 							award_winning: false
 						},
