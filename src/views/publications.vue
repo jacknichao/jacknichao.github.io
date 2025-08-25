@@ -80,8 +80,8 @@ export default {
 							title: "Enhancing Project-Specific Code Completion by Inferring Internal API Information",
 							authors: ["Le Deng", "Xiaoxue Ren", "Chao Ni", "Ming Liang", "David Lo", "Zhongxin Liu"],
  							corresponding_authors: [""],
-							pdf: "",
-							doi: "",
+							pdf: "./pdf/TSE-2024-10-0572.pdf",
+							doi: "https://doi.org/10.1109/TSE.2025.3592823",
 							CCF_grade: "(CCF-A)",
 							award_winning: false
 						},
