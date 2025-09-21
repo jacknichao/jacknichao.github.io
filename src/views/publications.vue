@@ -10,7 +10,7 @@
 		Journal of Systems and Software(JSS) *2.&emsp; Information and Software Technology(IST) * 2, &emsp; Journal of Software: Evolution and Process(JSEP) * 2; &emsp; Journal of Computer Science and Technology(JCST) * 1; &emsp;Automated Software Engineering Journal(ASEJ) * 1.
 	</li>
 	<li>
-	<b>Conference Papers</b>: &emsp;FSE * 4, &emsp;ASE * 2, &emsp;ISSTA * 2,&emsp;ICSE * 1, &emsp;SANER * 1,&emsp;ISSRE * 2,&emsp;ICPC * 2,&emsp;MSR * 2,&emsp;COMPSAC * 1,&emsp; Internetware * 1,&emsp;SEKE * 1,&emsp;APSEC * 1.
+	<b>Conference Papers</b>: &emsp;FSE * 4, &emsp;ASE * 2, &emsp;ISSTA * 2,&emsp;ICSE * 1, &emsp;SANER * 1,&emsp;ISSRE * 2,&emsp;ICPC * 2,&emsp;MSR * 2,&emsp;COMPSAC * 1,&emsp; Internetware * 1,&emsp;SEKE * 1,&emsp;APSEC * 3.
 	</li>
 	<li>
 		<b>Papers in Chinese</b>: &emsp;软件学报 * 3, &emsp;计算机科学 * 1,&emsp; 计算机工程与应用 * 1,&emsp; 高等工程教育研究 * 1.
@@ -75,6 +75,31 @@ export default {
 			{
 					year: "2025",
 					items: [
+						{
+							id: "C22",
+							short: "APSEC",
+							long: confs["APSEC"],
+							title: "Reliable Code Generation with Test Case Prioritization and Cognitive Validation",
+							authors: ["Lingyun Huang", "Xin Yin", "Xinrui Li", "Chao Ni"],
+							corresponding_authors: ["Chao Ni"],
+							pdf: "",
+							doi: "",
+							CCF_grade: "(CCF-C)",
+							award_winning: false
+						},
+						
+						{
+							id: "C21",
+							short: "APSEC",
+							long: confs["APSEC"],
+							title: "Enhancing Commit Classification for Software Maintenance with Adversarial Learning",
+							authors: ["Xinrui Li", "Xin Yin", "Chao Ni"],
+							corresponding_authors: ["Chao Ni"],
+							pdf: "",
+							doi: "",
+							CCF_grade: "(CCF-C)",
+							award_winning: false
+						},
 							{
 							id: "J18",
 							short: "EMSE",
