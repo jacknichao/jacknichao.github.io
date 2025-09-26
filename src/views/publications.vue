@@ -10,7 +10,7 @@
 		Journal of Systems and Software(JSS) *2.&emsp; Information and Software Technology(IST) * 2, &emsp; Journal of Software: Evolution and Process(JSEP) * 2; &emsp; Journal of Computer Science and Technology(JCST) * 1; &emsp;Automated Software Engineering Journal(ASEJ) * 1.
 	</li>
 	<li>
-	<b>Conference Papers</b>: &emsp;FSE * 4, &emsp;ASE * 2, &emsp;ISSTA * 2,&emsp;ICSE * 1, &emsp;SANER * 1,&emsp;ISSRE * 2,&emsp;ICPC * 2,&emsp;MSR * 2,&emsp;COMPSAC * 1,&emsp; Internetware * 1,&emsp;SEKE * 1,&emsp;APSEC * 3.
+	<b>Conference Papers</b>: &emsp;FSE * 4, &emsp;ASE * 5, &emsp;ISSTA * 2,&emsp;ICSE * 1, &emsp;SANER * 1,&emsp;ISSRE * 2,&emsp;ICPC * 2,&emsp;MSR * 2,&emsp;COMPSAC * 1,&emsp; Internetware * 1,&emsp;SEKE * 1,&emsp;APSEC * 3.
 	</li>
 	<li>
 		<b>Papers in Chinese</b>: &emsp;软件学报 * 3, &emsp;计算机科学 * 1,&emsp; 计算机工程与应用 * 1,&emsp; 高等工程教育研究 * 1.
@@ -75,6 +75,42 @@ export default {
 			{
 					year: "2025",
 					items: [
+							{
+							id: "C25",
+							short: "ASE",
+							long: confs["ASE"],
+							title: "Enhancing LLM's Ability to Generate More Repository-Aware Unit Tests Through Precise Context Injection",
+							authors: ["Xin Yin", "Chao Ni", "Xinrui Li", "Liushan Chen", "Guojun Ma", "Xiaohu Yang"],
+							corresponding_authors: ["Chao Ni"],
+							pdf: "",
+							doi: "",
+							CCF_grade: "(CCF-A)",
+							award_winning: false
+						},
+							{
+							id: "C24",
+							short: "ASE",
+							long: confs["ASE"],
+							title: "Navigating the Labyrinth: Path-Sensitive Unit Test Generation with Large Language Models",
+							authors: ["Dianshu Liao", "Xin Yin", "Shidong Pan", "Chao Ni", "Zhenchang Xing", "Xiaoyu Sun"],
+							corresponding_authors: [""],
+							pdf: "",
+							doi: "",
+							CCF_grade: "(CCF-A)",
+							award_winning: false
+						},
+						{
+							id: "C23",
+							short: "ASE",
+							long: confs["ASE"],
+							title: "PrefGen: A Preference-Driven Methodology for Secure Yet Gas-Efficient Smart Contract Generation",
+							authors: ["Zhiyuan Peng", "Xin Yin", "Zijie Zhou", "Chenhao Ying", "Chao Ni", "Yuan Luo"],
+							corresponding_authors: [""],
+							pdf: "",
+							doi: "",
+							CCF_grade: "(CCF-A)",
+							award_winning: false
+						},
 						{
 							id: "C22",
 							short: "APSEC",
