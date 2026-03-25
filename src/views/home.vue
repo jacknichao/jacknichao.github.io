@@ -101,12 +101,17 @@ export default {
 		return {
 			email: "chaoni@zju.edu.cn",
 			interests: [
+				"AI for Software Engineering: AI Infra, Agent-based Software Engineering",
 				"Software Testing: automatic unit test generation, fuzzing + X",
 				"Software Analytics: automated defect prediction, automated defect localization, and automated defect repair",
 				"Software Security: automated vulnerability detection, automated vulnerability localization, and vulnerability explanation",				
 				"Open Source: open source software supply chain; developer analysis;"
 			],
 			news: [//首页新闻相关的内容放这里
+			{
+					text:"2026/03: Our two papers were accepted by FSE'26!",
+					award_winning: false //表示是否获奖，获奖的话，可以添加徽章
+				},
 			{
 					text:"2025/09: Our three papers were accepted by ASE'25!",
 					award_winning: false //表示是否获奖，获奖的话，可以添加徽章
