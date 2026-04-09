@@ -15,6 +15,20 @@ export default {
 	data(){
 		return {
 			services:[
+			
+			{
+					title:"Journal referee",
+					organization:"Empirical Software Engineering",
+					abbr:"EMSE",
+					year:"2026"
+				},
+			
+			{
+					title:"Journal referee",
+					organization:"IEEE Transactions on Software Engineering",
+					abbr:"TSE",
+					year:"2026"
+				},
 			{
 					title:"Journal referee",
 					organization:"Journal of Software: Evolution and Process",

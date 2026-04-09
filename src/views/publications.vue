@@ -10,7 +10,7 @@
 		Journal of Systems and Software(JSS) *3.&emsp; Information and Software Technology(IST) * 2, &emsp; Journal of Software: Evolution and Process(JSEP) * 2; &emsp; Journal of Computer Science and Technology(JCST) * 1; &emsp;Automated Software Engineering Journal(ASEJ) * 1.
 	</li>
 	<li>
-	<b>Conference Papers</b>: &emsp;FSE * 6, &emsp;ASE * 5, &emsp;ISSTA * 2,&emsp;ICSE * 3, &emsp;SANER * 1,&emsp;ISSRE * 2,&emsp;ICPC * 2,&emsp;MSR * 2,&emsp;COMPSAC * 1,&emsp; Internetware * 1,&emsp;SEKE * 1,&emsp;APSEC * 3.
+	<b>Conference Papers</b>: &emsp;FSE * 6, &emsp;ASE * 5, &emsp;ISSTA * 2,&emsp;ICSE * 3,&emsp;ACL * 1, &emsp;SANER * 1,&emsp;ISSRE * 2,&emsp;ICPC * 2,&emsp;MSR * 2,&emsp;COMPSAC * 1,&emsp; Internetware * 1,&emsp;SEKE * 1,&emsp;APSEC * 3.
 	</li>
 	<li>
 		<b>Papers in Chinese</b>: &emsp;软件学报 * 3, &emsp;计算机科学 * 1,&emsp; 计算机工程与应用 * 1,&emsp; 高等工程教育研究 * 1.
@@ -74,6 +74,19 @@ export default {
 			publications: [
 			{	year: "2026",
 				items: [
+						{
+							id: "C29",
+							short: "ACL",
+							long: confs["ACL_F"],
+							title: "RepoDistill: Distilling Repository Knowledge through Compression-Aware Budget Allocation and Policy Optimization",
+							authors: ["Xin Yin", "Zixiang Ding", "Yiang Zhang", "Qiang Wang", "Rui Wang", "Chao Ni", "Zhe Cui"],
+ 							corresponding_authors: ["Chao Ni"],
+							pdf: ".",
+							doi: "",
+							CCF_grade: "(CCF-A)",
+							award_winning: false
+						}
+					,
 						{
 							id: "C28",
 							short: "FSE",
