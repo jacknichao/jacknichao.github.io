@@ -5,7 +5,7 @@
 <h2 >Publication Summary</h2>
 <ul>
 	<li>
-		<b>Journal Papers</b>: &emsp;IEEE Transactions on Software Engineering(TSE) * 5, &emsp; ACM Transactions on Software Engineering and Methodology(TOSEM) * 4,  &emsp;
+		<b>Journal Papers</b>: &emsp;IEEE Transactions on Software Engineering(TSE) * 5, &emsp; ACM Transactions on Software Engineering and Methodology(TOSEM) * 5,  &emsp;
 		Empirical Software Engineering(EMSE) * 1, &emsp;
 		Journal of Systems and Software(JSS) *3.&emsp; Information and Software Technology(IST) * 2, &emsp; Journal of Software: Evolution and Process(JSEP) * 2; &emsp; Journal of Computer Science and Technology(JCST) * 1; &emsp;Automated Software Engineering Journal(ASEJ) * 1.
 	</li>
@@ -74,6 +74,18 @@ export default {
 			publications: [
 			{	year: "2026",
 				items: [
+						{
+							id: "J20",
+							short: "TOSEM",
+							long: confs["TOSEM"],
+							title: "Hunk-Constrained DPO: Segment-Level Optimization for Secure and Correct LLM Code Generation",
+							authors: ["Qianshuo Huang", "Xin Yin", "Xinrui Li", "Chao Ni"],
+ 							corresponding_authors: ["Chao Ni"],
+							pdf: ".",
+							doi: "",
+							CCF_grade: "(CCF-A)",
+							award_winning: false
+						},
 						{
 							id: "C29",
 							short: "ACL",
