@@ -15,6 +15,12 @@ export default {
 	data(){
 		return {
 			services:[
+							{
+					title:"Program Committee",
+					organization:"The 33th Asia-Pacific Software Engineering Conference.",
+					abbr:"APSEC",
+					year:"2026"
+				},
 			
 			{
 					title:"Journal referee",

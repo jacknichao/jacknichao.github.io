@@ -109,18 +109,6 @@ export default {
 			],
 			news: [//首页新闻相关的内容放这里
 			{
-					text:"2026/06: Our one paper was accepted by TOSEM'26!",
-					award_winning: false //表示是否获奖，获奖的话，可以添加徽章
-				},
-			{
-					text:"2026/06: Our one paper was accepted by ASE'26!",
-					award_winning: false //表示是否获奖，获奖的话，可以添加徽章
-				},
-			{
-					text:"2026/05: Our one paper was accepted by TOSEM'26!",
-					award_winning: false //表示是否获奖，获奖的话，可以添加徽章
-				},
-			{
 					text:"2026/04: Our one paper was accepted by ACL'26!",
 					award_winning: false //表示是否获奖，获奖的话，可以添加徽章
 				},
